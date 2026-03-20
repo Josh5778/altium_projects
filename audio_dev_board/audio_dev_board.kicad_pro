@@ -578,6 +578,14 @@
     [
       "9f0c82f0-eba2-4eef-9ea0-d089929edc65",
       "Root"
+    ],
+    [
+      "6f2bb2d2-5e67-4e46-bc3f-aaa1cd15fb05",
+      "MCU"
+    ],
+    [
+      "b47d1b7e-a98d-4201-91ae-d062d458d2a3",
+      "CODEC"
     ]
   ],
   "text_variables": {}

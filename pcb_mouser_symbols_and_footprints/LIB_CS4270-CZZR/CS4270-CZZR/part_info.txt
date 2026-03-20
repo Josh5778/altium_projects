@@ -1,0 +1,9 @@
+Manufacturer=Cirrus Logic
+PartNumber=CS4270-CZZR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=2.1
+Released=2016-04-18 10:45:16
+Downloaded=2026-03-18 10:32:44
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CS4270_CZZR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cirrus Logic", "CS4270-CZZR" (!) = "", "SOP65P640X120-24N", "Small Outline Packages", "777-CS4270-CZZR", "https://www.mouser.co.uk/ProductDetail/Cirrus-Logic/CS4270-CZZR?qs=bUPhaerQQeGUCIrqegOqfg%3D%3D", "Interface - CODECs IC 105dB 192kHz Stereo Codec", "", "1.2 mm"
+END_PART
+
+END.

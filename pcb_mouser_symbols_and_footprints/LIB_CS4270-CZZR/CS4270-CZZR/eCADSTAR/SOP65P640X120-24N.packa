@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CS4270-CZZR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-28-11:46:05)
+    (mountForm default
+        (footprintRef "SOP65P640X120-24N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.CS4270-CZZR :1 ;Interface - CODECs IC 105dB 192kHz Stereo Codec
+SOP65P640X120-24N
+*STM IC
+*NGS
+*PLB 1="SDIN" 2="LRCK" 3="MCLK" 4="SCLK" 5="VD" 6="DGND" 7="SDOUT" 8="VLC" 9="SDA/CDOUT" 10="SCL/CCLK" 11="AD0/'CS'" 12="AD1/CDIN" 13="AD2" 14="'RST'" 15="AINA" 16="AINB" 17="VQ" 18="FILT+" 19="VA" 20="AGND" 21="'MUTEA'" 22="AOUTA" 23="AOUTB" 24="'MUTEB'"
+*MXP 24
+*DFN CS4270-CZZR
+~!Mouser Part Number (777-CS4270-CZZR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Cirrus-Logic/CS4270-CZZR?qs=bUPhaerQQeGUCIrqegOqfg%3D%3D)
+~!Manufacturer_Name (Cirrus Logic)
+~!Manufacturer_Part_Number (CS4270-CZZR)
+~!Link Datasheet (-)
+~!Height (1.2mm)
+~!3D_Model (CS4270-CZZR)
+CS4270-CZZR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 
