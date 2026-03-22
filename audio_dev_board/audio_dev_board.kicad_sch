@@ -291,6 +291,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 216.408 43.688)
+		(size 54.61 29.718)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba0b63f1-9541-4959-a5d0-a9c1a43ffffa")
+		(property "Sheetname" "filtering"
+			(at 216.408 42.9764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "filtering.kicad_sch"
+			(at 216.408 73.9906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
