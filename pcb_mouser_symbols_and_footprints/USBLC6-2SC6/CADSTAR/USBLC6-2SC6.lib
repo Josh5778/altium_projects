@@ -1,0 +1,16 @@
+.USBLC6-2SC6 :1 ;TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="I/O1_1" 2="GND" 3="I/O2_1" 4="I/O2_2" 5="VBUS" 6="I/O1_2"
+*MXP 6
+*DFN USBLC6-2SC6
+~!Mouser Part Number (511-USBLC6-2SC6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (USBLC6-2SC6)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/usblc6-2.pdf)
+~!Height (1.45mm)
+~!3D_Model (USBLC6-2SC6)
+USBLC6-2SC6
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

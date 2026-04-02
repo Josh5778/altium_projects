@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NYS2162-U"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-01-03-11:58:43)
+    (mountForm default
+        (footprintRef "NYS2162U")
+        (spec "System")
+    )
+)

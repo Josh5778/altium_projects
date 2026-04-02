@@ -1,0 +1,228 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NYS2162-U"
+   (description "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN")
+   (family "CON")
+   (package "NYS2162U")
+   (attribute "Datasheet Link" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1")
+   (attribute "Geometry.Height" "17.6mm")
+   (attribute "Mouser Part Number" "568-NYS2162-U")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D")
+   (attribute "Manufacturer_Name" "Neutrik")
+   (attribute "Manufacturer_Part_Number" "NYS2162-U")
+   (gate
+    (symbol "NYS2162-U")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "NYS2162-U"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NYS2162U"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.65 18.25)
+      (pt 17.35 18.25)
+      (pt 17.35 -1.75)
+      (pt -4.65 -1.75)
+      (pt -4.65 18.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.65 18.25)
+      (pt 17.35 18.25)
+      (pt 17.35 -1.75)
+      (pt -4.65 -1.75)
+      (pt -4.65 18.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11.15 21.25)
+      (pt 23.85 21.25)
+      (pt 23.85 -4.75)
+      (pt -11.15 -4.75)
+      (pt -11.15 21.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.65 2.25)
+      (pt -8.65 2.25)
+      (pt -10.15 4.25)
+      (pt -10.15 13.25)
+      (pt -8.65 15.25)
+      (pt -4.65 15.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -8.65 15.25)
+      (pt -8.65 2.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 16.35 18.25)
+      (pt 17.35 20.25)
+      (pt 18.35 20.25)
+      (pt 18.35 -3.75)
+      (pt 17.35 -3.75)
+      (pt 16.35 -1.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 18.35 16.25)
+      (pt 19.35 17.25)
+      (pt 20.35 17.25)
+      (pt 21.35 16.5)
+      (pt 21.35 0.25)
+      (pt 20.35 -0.75)
+      (pt 19.35 -0.75)
+      (pt 18.35 0.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 21.35 12.25)
+      (pt 22.85 12.25)
+      (pt 22.85 4.25)
+      (pt 21.35 4.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 16.35 18.25)
+      (pt 17.35 20.25)
+      (pt 18.35 20.25)
+      (pt 18.35 -3.75)
+      (pt 17.35 -3.75)
+      (pt 16.35 -1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 18.35 16.25)
+      (pt 19.35 17.25)
+      (pt 20.35 17.25)
+      (pt 21.35 16.5)
+      (pt 21.35 0.25)
+      (pt 20.35 -0.75)
+      (pt 19.35 -0.75)
+      (pt 18.35 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 21.35 12.25)
+      (pt 22.85 12.25)
+      (pt 22.85 4.25)
+      (pt 21.35 4.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.65 2.25)
+      (pt -8.65 2.25)
+      (pt -10.15 4.25)
+      (pt -10.15 13.25)
+      (pt -8.65 15.25)
+      (pt -4.65 15.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.65 15.25)
+      (pt -8.65 2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -4.2)
+      (arc (pt 0.000 -4.200) (pt -0.050 -4.300) (pt 0.050 -4.200) (start 180.0) (sweep 90.0))
+      (pt 0 -4.3)
+      (arc (pt 0.000 -4.300) (pt -0.050 -4.300) (pt 0.050 -4.200) (start 180.0) (sweep -90.0))
+      (pt 0 -4.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 12.700 0.000) (padstack 0))
+   (leg 3 (pt 12.700 16.500) (padstack 0))
+   (leg 4 (pt 0.000 16.500) (padstack 0))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (model "NYS2162-U.stp"
+    (euler 0 0 -90)
+    (offset 3.9800000190734863 8.25 8.8100004196167)
+   )
+  )
+ )
+)

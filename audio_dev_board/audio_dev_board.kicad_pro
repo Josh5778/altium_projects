@@ -590,6 +590,14 @@
     [
       "ba0b63f1-9541-4959-a5d0-a9c1a43ffffa",
       "filtering"
+    ],
+    [
+      "97ba4ced-2024-461d-902e-536d2f09620c",
+      "Connectors"
+    ],
+    [
+      "5d31b111-157d-4a82-b246-c29d4a037fd1",
+      "Power"
     ]
   ],
   "text_variables": {}

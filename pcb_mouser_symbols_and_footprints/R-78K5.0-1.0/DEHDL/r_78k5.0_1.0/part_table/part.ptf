@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'R_78K5.0_1.0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "R-78K5.0-1.0" (!) = "", "R78K5010", "Other", "919-R-78K5.0-1.0", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78K5.0-1.0?qs=Jm2GQyTW%2Fbhzkh4G140JXg%3D%3D", "1.0 Amp SIP3 Single Output", "https://recom-power.com/pdf/Innoline/R-78K-1.0.pdf", "10.7 mm"
+END_PART
+
+END.

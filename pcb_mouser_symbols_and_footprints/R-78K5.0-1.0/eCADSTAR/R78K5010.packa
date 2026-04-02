@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "R-78K5_0-1_0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-17-13:56:10)
+    (mountForm default
+        (footprintRef "R78K5010")
+        (spec "System")
+    )
+)

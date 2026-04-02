@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '150060BS75003'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "150060BS75003" (!) = "", "150060BS75003", "Other", "710-150060BS75003", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060BS75003?qs=Li%252BoUPsLEnu8LvIbM48DKA%3D%3D", "SMT Mono-Color Chip LED Waterclear Advance SMT 0603 Blue Typ.(@20mA): 350mcd 3,2V 140  Advance", "https://www.we-online.com/catalog/datasheet/150060BS75003.pdf", "0.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCM12SMTBR
+D Slide Switch SPDT Surface Mount, Right Angle
+K
+F https://www.ckswitches.com/media/1424/pcm.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1202,16 +1202,6 @@
 	)
 	(wire
 		(pts
-			(xy 268.224 151.13) (xy 268.224 155.194)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6aa94b-d885-4ec7-a7e3-1e6820d3b60e")
-	)
-	(wire
-		(pts
 			(xy 182.626 171.196) (xy 182.626 177.292)
 		)
 		(stroke
@@ -1542,16 +1532,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.016 151.13) (xy 258.318 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ceb6625-03bc-4bb3-8c7c-92a8f280d88e")
-	)
-	(wire
-		(pts
 			(xy 182.626 177.292) (xy 191.262 177.292)
 		)
 		(stroke
@@ -1872,16 +1852,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.938 151.13) (xy 268.224 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c52b6b-da05-40b0-8972-bb53157ce58c")
-	)
-	(wire
-		(pts
 			(xy 252.222 100.584) (xy 258.318 100.584)
 		)
 		(stroke
@@ -2130,9 +2100,21 @@
 		)
 		(uuid "fe08ff83-0065-40d7-aacd-b32faa786b0e")
 	)
+	(rectangle
+		(start 117.856 66.548)
+		(end 307.594 192.786)
+		(stroke
+			(width 0.75)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf46e869-ae41-455e-a0da-0f743851007a)
+	)
 	(text "Codec"
 		(exclude_from_sim no)
-		(at 43.434 30.988 0)
+		(at 136.652 57.658 0)
 		(effects
 			(font
 				(face "Arial Black")
@@ -2348,6 +2330,17 @@
 		)
 		(uuid "7ca537b9-c61f-401b-a3c9-a6bd26d2c34d")
 	)
+	(hierarchical_label "InputBFiltered"
+		(shape input)
+		(at 247.396 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97a08d8d-187d-4c4e-bdd8-f9466fcb3f98")
+	)
 	(hierarchical_label "OutputRawA"
 		(shape output)
 		(at 234.442 126.492 0)
@@ -2370,7 +2363,7 @@
 		)
 		(uuid "d3c29d64-ea6a-4c1b-b759-ab7b74899af9")
 	)
-	(hierarchical_label "InputFiltered"
+	(hierarchical_label "InputAFiltered"
 		(shape input)
 		(at 247.396 166.116 0)
 		(effects
@@ -2468,73 +2461,6 @@
 			(project "audio_dev_board"
 				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 262.128 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ec3ed13-688a-4b19-a4c3-0dd0af7dae16")
-		(property "Reference" "C31"
-			(at 262.128 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 262.128 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.938 150.1648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.128 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 262.128 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18b7e27d-c6ef-4fc0-9888-84a28efd7f60")
-		)
-		(pin "2"
-			(uuid "6b69a0f7-4db9-4887-bd71-9d3f74d7a3fc")
-		)
-		(instances
-			(project ""
-				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2951,73 +2877,6 @@
 			(project "audio_dev_board"
 				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.206 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7beb52f3-f470-4d9b-bca0-62abc2fe1722")
-		(property "Reference" "R13"
-			(at 251.206 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 251.206 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.206 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.206 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.206 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b0f057f-a237-49ee-8506-8e2a7cdac363")
-		)
-		(pin "1"
-			(uuid "af7d2b0a-342d-4d46-939d-12bdd059bf26")
-		)
-		(instances
-			(project ""
-				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4250,73 +4109,6 @@
 			(project "audio_dev_board"
 				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 268.224 155.194 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e858c5dc-c4a3-4db1-adde-29931c22bf96")
-		(property "Reference" "#PWR033"
-			(at 268.224 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 268.224 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 268.224 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 268.224 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 268.224 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2243c82d-f586-4d52-837e-3471c688bfeb")
-		)
-		(instances
-			(project ""
-				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/b47d1b7e-a98d-4201-91ae-d062d458d2a3"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)

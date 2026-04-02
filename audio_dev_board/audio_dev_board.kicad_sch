@@ -76,6 +76,44 @@
 		(uuid "dfcdbd98-5f5f-47bf-9473-9e8f3f4c88d5")
 	)
 	(sheet
+		(at 73.66 100.33)
+		(size 35.052 32.004)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d31b111-157d-4a82-b246-c29d4a037fd1")
+		(property "Sheetname" "Power"
+			(at 73.66 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 73.66 132.9186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 71.12 43.942)
 		(size 37.084 29.972)
 		(fields_autoplaced yes)
@@ -184,6 +222,84 @@
 		)
 	)
 	(sheet
+		(at 303.784 44.196)
+		(size 55.626 28.956)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97ba4ced-2024-461d-902e-536d2f09620c")
+		(property "Sheetname" "Connectors"
+			(at 303.784 43.4844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 303.784 73.7366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OutputARaw" input
+			(at 303.784 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "909afec1-2fde-4cd4-9983-31e1353daa44")
+		)
+		(pin "OutputBRaw" input
+			(at 303.784 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6a8ba2b-0665-44be-b59c-cdbf1c087502")
+		)
+		(pin "InputARaw" output
+			(at 303.784 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5529cfbf-d649-461e-9d8d-aa8f7332140f")
+		)
+		(pin "InputBRaw" output
+			(at 303.784 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96459b8f-9470-47a3-8dc0-3492255e7a40")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 143.256 43.18)
 		(size 42.672 30.48)
 		(fields_autoplaced yes)
@@ -283,6 +399,46 @@
 			)
 			(uuid "bbb6ea10-b47d-4730-b958-234f1bb2e720")
 		)
+		(pin "OutputRawA" output
+			(at 185.928 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b70b271-72ad-4e3f-a331-68780ddb2405")
+		)
+		(pin "OutputRawB" output
+			(at 185.928 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3706fa3-3ba1-455c-99fb-ea9fdfdb1799")
+		)
+		(pin "InputAFiltered" input
+			(at 185.928 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2c96974-ff72-4eaf-9f3e-e6ccb9d5d2cf")
+		)
+		(pin "InputBFiltered" input
+			(at 185.928 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffc47951-7af7-4810-b8df-150163244795")
+		)
 		(instances
 			(project "audio_dev_board"
 				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65"
@@ -320,6 +476,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "OutputProcessedB" output
+			(at 216.408 60.198 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e438f67-8ad5-458a-9681-5ab69f594611")
+		)
+		(pin "OutputProcessedA" output
+			(at 216.408 57.404 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "966dece9-1f26-4cb2-9da5-2495609996fe")
+		)
+		(pin "InputRaw" input
+			(at 271.018 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "596aa491-b445-408f-953a-2655901d11fd")
+		)
+		(pin "OutputRawA" input
+			(at 271.018 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fa3a96a-bae6-494f-b0f2-ea1e140029f4")
+		)
+		(pin "OutputRawB" input
+			(at 271.018 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8a9ab80-2af5-4db2-92c9-e09174a9dc71")
+		)
+		(pin "InputFiltered" output
+			(at 216.408 54.864 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8b9826a-f067-4a3d-a018-d09d74fb44d3")
 		)
 		(instances
 			(project "audio_dev_board"

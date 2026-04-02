@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NYS2162U"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NYS2162U")
+        (spec "default")
+    )
+)

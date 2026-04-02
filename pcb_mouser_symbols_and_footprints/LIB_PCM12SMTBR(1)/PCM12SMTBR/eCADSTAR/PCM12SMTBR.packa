@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PCM12SMTBR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-30-09:54:44)
+    (mountForm default
+        (footprintRef "PCM12SMTBR")
+        (spec "System")
+    )
+)

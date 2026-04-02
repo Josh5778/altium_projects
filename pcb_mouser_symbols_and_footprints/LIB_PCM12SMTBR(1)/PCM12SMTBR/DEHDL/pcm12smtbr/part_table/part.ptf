@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCM12SMTBR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "PCM12SMTBR" (!) = "", "PCM12SMTBR", "Other", "611-PCM12SMTBR", "https://www.mouser.co.uk/ProductDetail/CK/PCM12SMTBR?qs=By6Nw2ByBD1OEOnWcdZb2g%3D%3D", "Slide Switch SPDT Surface Mount, Right Angle", "https://www.ckswitches.com/media/1424/pcm.pdf", "1.4 mm"
+END_PART
+
+END.

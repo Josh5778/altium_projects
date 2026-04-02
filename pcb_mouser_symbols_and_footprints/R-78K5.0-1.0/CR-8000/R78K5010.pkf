@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "R78K5010"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "R78K5010")
+        (spec "default")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=150060BS75003
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=5.5
+Released=2023-03-14 04:28:57
+Downloaded=2026-03-25 12:14:21
+3D=Y

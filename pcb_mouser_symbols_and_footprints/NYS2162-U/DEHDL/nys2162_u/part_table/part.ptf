@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NYS2162_U'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Neutrik", "NYS2162-U" (!) = "", "NYS2162U", "Other", "568-NYS2162-U", "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D", "Phone Connectors 1/4" MONO JACK .322" GOLD REAN", "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1", "17.6 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USBLC6_2SC6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "TKNEE", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "IF", "IR", "RJA", "BV", "VC", "IPP", "VRWM", "IT";
+{========================================================================================}
+ "STMicroelectronics", "USBLC6-2SC6" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "511-USBLC6-2SC6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D", "TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin", "https://www.st.com/resource/en/datasheet/usblc6-2.pdf", "1.45 mm", "125", "", "", "", "", "UNIDIRECTIONAL TVS SMD", "SOT23-6L", "", "", "", "6", "12", "1", "5.25", ""
+END_PART
+
+END.

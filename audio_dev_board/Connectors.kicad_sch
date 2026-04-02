@@ -1,0 +1,1293 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d3b339db-4ccd-42d3-b9ca-a23dc0f03e55")
+	(paper "A4")
+	(lib_symbols
+		(symbol "NYS2162-U:NYS2162-U"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NYS2162-U"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NYS2162U"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "17.6"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "568-NYS2162-U"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Neutrik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NYS2162-U"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "NYS2162-U_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 29.21 66.04)
+		(uuid "04050548-3359-456f-976e-9bc686ce0fe9")
+	)
+	(no_connect
+		(at 95.25 66.04)
+		(uuid "111f6081-ec18-4665-b0b4-7149129eebb6")
+	)
+	(no_connect
+		(at 29.21 40.64)
+		(uuid "1d7e272d-fefe-4a5f-be94-6fdfa668be80")
+	)
+	(no_connect
+		(at 49.53 66.04)
+		(uuid "2a95d603-4f99-4531-a255-e0bd74e3e186")
+	)
+	(no_connect
+		(at 95.25 40.64)
+		(uuid "6495de26-fa26-42be-98d1-4afce6992fdb")
+	)
+	(no_connect
+		(at 74.93 66.04)
+		(uuid "653021d9-c8b5-412e-98c6-48757f747c6f")
+	)
+	(no_connect
+		(at 49.53 40.64)
+		(uuid "93736477-e8a5-405d-9c53-651c1b8a9ca2")
+	)
+	(no_connect
+		(at 74.93 40.64)
+		(uuid "e18a4f2e-c73f-4226-b0ab-fd54babffafd")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8e36e0-641b-46a0-a78b-af6528ef3816")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1066503e-0b52-406c-a22c-f3c450b183e8")
+	)
+	(wire
+		(pts
+			(xy 27.94 68.58) (xy 27.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17950e89-6401-46d9-ae49-ad587530d6c8")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 73.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27efab8a-2c98-417f-b928-714abb0794bc")
+	)
+	(wire
+		(pts
+			(xy 49.53 68.58) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b4cd84-f562-481e-8054-7115e276f582")
+	)
+	(wire
+		(pts
+			(xy 74.93 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4d4ba0-37b7-492e-8ec0-85f112752d50")
+	)
+	(wire
+		(pts
+			(xy 29.21 43.18) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61617af4-654a-41e6-a1ed-c03b46dadb28")
+	)
+	(wire
+		(pts
+			(xy 49.53 43.18) (xy 54.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e64a961-6cc4-435b-ba85-dafca88d57dc")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8619bb19-376c-4fd9-a582-914853c6b0c6")
+	)
+	(wire
+		(pts
+			(xy 29.21 68.58) (xy 27.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08d52d8-fad7-4ff4-bdff-79c3d9f51d32")
+	)
+	(wire
+		(pts
+			(xy 27.94 43.18) (xy 27.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c7023f-825a-492d-b07d-f75eb5c7242b")
+	)
+	(wire
+		(pts
+			(xy 73.66 43.18) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e1636d-5aa9-41c9-ba59-d4b9c25b632f")
+	)
+	(rectangle
+		(start 20.828 28.956)
+		(end 116.84 79.756)
+		(stroke
+			(width 0.75)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6812458a-46a8-4768-80f4-ebea26d14e7c)
+	)
+	(text "I/O TS JACKS"
+		(exclude_from_sim no)
+		(at 43.942 23.114 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 5 5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8b7fbe90-1b9a-49ff-9b2c-d03782d426c6")
+	)
+	(hierarchical_label "InputARaw"
+		(shape output)
+		(at 54.61 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "59e67b30-76ab-4fc8-9c8e-71a9b9e07e7d")
+	)
+	(hierarchical_label "OutputBRaw"
+		(shape input)
+		(at 100.33 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5a70372d-7a16-44b6-b03f-2eb6698cec34")
+	)
+	(hierarchical_label "InputBRaw"
+		(shape output)
+		(at 54.61 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "73878c2f-6a38-45a6-92d2-e8f857235a69")
+	)
+	(hierarchical_label "OutputARaw"
+		(shape input)
+		(at 100.33 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "930d88a2-fe7e-4cd2-93b9-3c49ed19071f")
+	)
+	(symbol
+		(lib_id "NYS2162-U:NYS2162-U")
+		(at 74.93 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc1a5dc-d627-4d68-a613-f6c5d5e87f7b")
+		(property "Reference" "J5"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NYS2162-U"
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NYS2162U"
+			(at 91.44 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1"
+			(at 91.44 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.6"
+			(at 91.44 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "568-NYS2162-U"
+			(at 91.44 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D"
+			(at 91.44 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 91.44 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NYS2162-U"
+			(at 91.44 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06eb3fab-87ec-4fa1-9357-4e61d112ab46")
+		)
+		(pin "3"
+			(uuid "38ac5bf8-f95b-42cd-a57d-c0044a18ddb3")
+		)
+		(pin "4"
+			(uuid "3fba47e7-4890-4d23-8e78-fb01e8a5d932")
+		)
+		(pin "2"
+			(uuid "dc906a68-4cee-4698-92dd-d1e17e923e86")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fbaf1db-b28e-4051-a72a-09c858bacede")
+		(property "Reference" "#PWR042"
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5f701a-c33a-4a89-a651-963180aa3723")
+		)
+		(instances
+			(project ""
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd4f86d-fa6b-4007-b91e-96e409510b6d")
+		(property "Reference" "#PWR043"
+			(at 73.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f459293f-800a-4794-adda-053f191487df")
+		)
+		(instances
+			(project ""
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NYS2162-U:NYS2162-U")
+		(at 29.21 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc49237-0cb0-4dfc-9602-f0a4a66f7aa4")
+		(property "Reference" "J3"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NYS2162-U"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NYS2162U"
+			(at 45.72 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1"
+			(at 45.72 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.6"
+			(at 45.72 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "568-NYS2162-U"
+			(at 45.72 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D"
+			(at 45.72 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 45.72 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NYS2162-U"
+			(at 45.72 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a10c13a5-b84f-4692-8abf-efb8aed6a6f0")
+		)
+		(pin "3"
+			(uuid "1a7190f6-74cf-441c-bcb6-591649eb5090")
+		)
+		(pin "4"
+			(uuid "829603cc-5e47-4afa-bb3c-6ca7b91937fe")
+		)
+		(pin "2"
+			(uuid "4d377c2a-6792-4ff0-8fda-307d589ac6be")
+		)
+		(instances
+			(project ""
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822a4420-1a56-4f12-a5bd-d2ddfe7acfe7")
+		(property "Reference" "#PWR041"
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b66f9e0-9e33-4073-82fb-67bb74b9f210")
+		)
+		(instances
+			(project ""
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NYS2162-U:NYS2162-U")
+		(at 74.93 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a28273-374f-4efb-8d21-27546b375bc4")
+		(property "Reference" "J6"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NYS2162-U"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NYS2162U"
+			(at 91.44 160.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1"
+			(at 91.44 260.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN"
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.6"
+			(at 91.44 460.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "568-NYS2162-U"
+			(at 91.44 560.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D"
+			(at 91.44 660.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 91.44 760.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NYS2162-U"
+			(at 91.44 860.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da9aeb7f-50bf-46c4-899f-03a4b3bdccea")
+		)
+		(pin "3"
+			(uuid "75418ff0-1ffb-42d2-b06c-36cf228c6705")
+		)
+		(pin "4"
+			(uuid "13ae2d0a-fd9b-4af4-ae3e-57d0af909b65")
+		)
+		(pin "2"
+			(uuid "d4a10f42-da2d-4e8b-b2f9-dd1f2ba1d052")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NYS2162-U:NYS2162-U")
+		(at 29.21 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3326d2c-4c8f-41ed-955e-a1d884a0cbf8")
+		(property "Reference" "J4"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NYS2162-U"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NYS2162U"
+			(at 45.72 160.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rean-connectors.com/media/9015/download/nys-2162.pdf?v=1"
+			(at 45.72 260.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors 1/4\" MONO JACK .322\" GOLD REAN"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.6"
+			(at 45.72 460.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "568-NYS2162-U"
+			(at 45.72 560.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS2162-U?qs=%252B86TLfaev286a5wVB8a3bw%3D%3D"
+			(at 45.72 660.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 45.72 760.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NYS2162-U"
+			(at 45.72 860.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b52bab22-b679-420a-bfd1-dc10e7fb540c")
+		)
+		(pin "3"
+			(uuid "4e33a8ad-465a-420b-9c92-2aa7bb223d8d")
+		)
+		(pin "4"
+			(uuid "cea0f9f7-e658-4518-a06a-b3d4f163d207")
+		)
+		(pin "2"
+			(uuid "9a921455-228a-4ba0-a34f-9e29310a167f")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8737a1c-5c9e-4290-ad03-743e32971877")
+		(property "Reference" "#PWR044"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2aeda8-2b0e-4efb-8285-986d17327c92")
+		)
+		(instances
+			(project ""
+				(path "/9f0c82f0-eba2-4eef-9ea0-d089929edc65/97ba4ced-2024-461d-902e-536d2f09620c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

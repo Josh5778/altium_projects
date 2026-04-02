@@ -1,0 +1,16 @@
+.150060BS75003 :1 ;SMT Mono-Color Chip LED Waterclear Advance SMT 0603 Blue Typ.(@20mA): 350mcd 3,2V 140  Advance
+"150060BS75003"
+*STM LED
+*NGS
+*PLB 1="A" 2="K"
+*MXP 2
+*DFN 150060BS75003
+~!Mouser Part Number (710-150060BS75003)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060BS75003?qs=Li%252BoUPsLEnu8LvIbM48DKA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (150060BS75003)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/150060BS75003.pdf)
+~!Height (0.7mm)
+~!3D_Model (150060BS75003)
+"150060BS75003"
+1.1!U 2.1!U 
