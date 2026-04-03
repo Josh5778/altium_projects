@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CG0402MLU-12G
+#/883697/1653077/2.50/2/3/Varistor
+DEF CG0402MLU-12G RV 0 30 Y Y 1 F N
+F0 "RV" 550 250 50 H V L CNN
+F1 "CG0402MLU-12G" 550 150 50 H V L CNN
+F2 "VARC1005X41N" 550 50 50 H I L CNN
+F3 "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27" 550 -50 50 H I L CNN
+F4 "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT" 550 -150 50 H I L CNN "Description"
+F5 "0.41" 550 -250 50 H I L CNN "Height"
+F6 "652-CG0402MLU-12G" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CG0402MLU-12G" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 4 0 1 6 150 -100 250 -100 450 100 550 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

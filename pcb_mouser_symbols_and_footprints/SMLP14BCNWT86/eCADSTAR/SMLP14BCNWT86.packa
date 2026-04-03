@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SMLP14BCNWT86"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-05-17-12:37:41)
+    (mountForm default
+        (footprintRef "SMLP14BCNWT86")
+        (spec "System")
+    )
+)

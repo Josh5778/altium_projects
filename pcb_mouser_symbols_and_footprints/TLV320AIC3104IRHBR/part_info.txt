@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV320AIC3104IRHBR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.3
+Released=2018-11-08 23:24:46
+Downloaded=2026-04-03 06:08:54
+3D=Y

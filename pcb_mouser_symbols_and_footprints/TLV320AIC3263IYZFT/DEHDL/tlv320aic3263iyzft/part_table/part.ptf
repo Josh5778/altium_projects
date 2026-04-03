@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV320AIC3263IYZFT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV320AIC3263IYZFT" (!) = "", "BGA81C50P9X9_481X481X62", "BGA", "595-V320AIC3263IYZFT", "https://www.mouser.com/Search/Refine.aspx?Keyword=595-V320AIC3263IYZFT", "Low Power Stereo Audio Codec W/miniDSP, Class-D Speaker, DirectPath Headphone, 4 digital mic support", "https://www.ti.com/lit/gpn/TLV320AIC3263", "0.625 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CG0402MLU-12G
+D ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT
+K
+F https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27
+$ENDCMP
+#
+#End Doc Library

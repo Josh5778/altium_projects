@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMLP14BCNWT86'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "SMLP14BCNWT86" (!) = "", "SMLP14BCNWT86", "Other", "", "", "Blue 470nm LED Indication - Discrete 2.9V 0402 (1005 Metric)", "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlp14bcnwt86-e.pdf", "0.25 mm"
+END_PART
+
+END.

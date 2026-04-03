@@ -1,0 +1,16 @@
+.CG0402MLU-12G :1 ;ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT
+VARC1005X41N
+*STM RV
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CG0402MLU-12G
+~!Mouser Part Number (652-CG0402MLU-12G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CG0402MLU-12G)
+~!Link Datasheet (https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27)
+~!Height (0.41mm)
+~!3D_Model (CG0402MLU-12G)
+CG0402MLU-12G
+1.1!U 2.1!U 

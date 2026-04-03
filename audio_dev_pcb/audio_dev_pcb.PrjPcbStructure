@@ -1,2 +1,7 @@
-Record=TopLevelDocument|FileName=high_level.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=Codec.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=high_level.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=MCU_IO.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=MCUPower.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=Power.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=USB_FS.SchDoc|SheetNumber=5

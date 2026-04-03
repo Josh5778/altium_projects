@@ -1,0 +1,16 @@
+.SMLP14BCNWT86 :1 ;Blue 470nm LED Indication - Discrete 2.9V 0402 (1005 Metric)
+SMLP14BCNWT86
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMLP14BCNWT86
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (SMLP14BCNWT86)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlp14bcnwt86-e.pdf)
+~!Height (0.25mm)
+~!3D_Model (SMLP14BCNWT86)
+SMLP14BCNWT86
+1.1!U 2.1!U 

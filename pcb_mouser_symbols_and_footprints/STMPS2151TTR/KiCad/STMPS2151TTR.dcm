@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STMPS2151TTR
+D Power Switch ICs - Power Distribution SGL CHNL PWR SWTCH
+K
+F https://www.st.com/resource/en/datasheet/stmps2141.pdf
+$ENDCMP
+#
+#End Doc Library

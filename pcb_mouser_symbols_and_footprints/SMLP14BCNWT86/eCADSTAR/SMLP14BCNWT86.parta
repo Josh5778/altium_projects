@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19612760"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-17-12:37:41)
+    (utime 2024-05-17-12:37:41)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SMLP14BCNWT86")
+)
+
+
+(pinAssign "ECS_19612760"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-17-12:37:41)
+    (utime 2024-05-17-12:37:41)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19612760")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SMLP14BCNWT86")
+)
+
+
+(part "SMLP14BCNWT86"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-17-12:37:41)
+    (utime 2024-05-17-12:37:41)
+    (packageRef "SMLP14BCNWT86")
+    (pinAssignRef "ECS_19612760")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Blue 470nm LED Indication - Discrete 2.9V 0402 (1005 Metric)")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "SMLP14BCNWT86")
+    (property "Datasheet_Link" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlp14bcnwt86-e.pdf")
+    (property "compAreaTopHeight" 0.25)
+)
+
+

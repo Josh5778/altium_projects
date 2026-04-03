@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLV320AIC3263IYZFT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-23-08:03:47)
+    (mountForm default
+        (footprintRef "BGA81C50P9X9_481X481X62")
+        (spec "System")
+    )
+)

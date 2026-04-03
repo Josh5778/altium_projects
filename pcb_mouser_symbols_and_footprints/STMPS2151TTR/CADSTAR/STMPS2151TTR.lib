@@ -1,0 +1,18 @@
+.STMPS2151TTR :1 ;Power Switch ICs - Power Distribution SGL CHNL PWR SWTCH
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="GND" 2="IN_1" 3="IN_2" 4="EN" 5="FAULT" 6="OUT_1" 7="OUT_2" 8="OUT_3"
+*MXP 8
+*DFN STMPS2151TTR
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STMPS2151TTR)
+~!Mouser Part Number (511-STMPS2151TTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STMPS2151TTR?qs=qolwYojYp3TtdEE8TCWfkg%3D%3D)
+~!Arrow Part Number (STMPS2151TTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/stmps2151ttr/stmicroelectronics)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/stmps2141.pdf)
+~!Height (1.1mm)
+~!3D_Model (STMPS2151TTR)
+STMPS2151TTR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

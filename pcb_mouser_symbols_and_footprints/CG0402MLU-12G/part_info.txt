@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CG0402MLU-12G
+PartCategory=Varistor
+PackageCategory=Varistors Chip
+PinCount=2
+Version=1.1
+Released=2021-09-04 05:22:40
+Downloaded=2026-04-03 12:29:38
+3D=Y

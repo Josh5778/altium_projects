@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMLP14BCNWT86
+D Blue 470nm LED Indication - Discrete 2.9V 0402 (1005 Metric)
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlp14bcnwt86-e.pdf
+$ENDCMP
+#
+#End Doc Library

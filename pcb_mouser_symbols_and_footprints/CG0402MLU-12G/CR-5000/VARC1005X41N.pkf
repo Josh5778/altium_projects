@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "VARC1005X41N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "VARC1005X41N")
+        (spec "default")
+    )
+)

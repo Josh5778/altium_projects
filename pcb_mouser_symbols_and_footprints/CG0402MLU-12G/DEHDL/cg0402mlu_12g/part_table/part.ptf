@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CG0402MLU_12G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CG0402MLU-12G" (!) = "", "VARC1005X41N", "Varistors Chip", "652-CG0402MLU-12G", "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D", "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT", "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27", "0.41 mm"
+END_PART
+
+END.
