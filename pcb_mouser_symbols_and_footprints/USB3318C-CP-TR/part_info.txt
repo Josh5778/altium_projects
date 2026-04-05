@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=USB3318C-CP-TR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=25
+Version=1.1
+Released=2019-05-14 06:03:48
+Downloaded=2026-04-05 04:32:38
+3D=Y

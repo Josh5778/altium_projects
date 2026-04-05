@@ -84,13 +84,13 @@ GenerateClassCluster=0
 DocumentUniqueId=AOBFAPCU
 
 [Document3]
-DocumentPath=MCUPower.SchDoc
+DocumentPath=MCU_Connections.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -98,10 +98,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RGHJTEKZ
+DocumentUniqueId=HGCVTBOH
 
 [Document4]
-DocumentPath=MCU_IO.SchDoc
+DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CCSQGCWN
 
 [Document5]
-DocumentPath=USB_FS.SchDoc
+DocumentPath=USB_HS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -135,6 +135,23 @@ GenerateClassCluster=0
 DocumentUniqueId=SRMTGVMZ
 
 [Document6]
+DocumentPath=Peripherals.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MJXNJPME
+
+[Document7]
 DocumentPath=Codec.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DGUQVFXG
 
-[Document7]
+[Document8]
 DocumentPath=Input_Output_Filtering.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YSVLHVPY
 
-[Document8]
+[Document9]
 DocumentPath=audio_dev_pcb.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
+DocumentPath=misc_component_libs\Components - 05.04.26 - 15.04.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HBXNHHJN
+
+[Document11]
 DocumentPath=..\..\Documents\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -200,9 +234,26 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MPRJBCLL
 
-[Document10]
+[Document12]
+DocumentPath=misc_component_libs\Components - 05.04.26 - 15.04.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VIMWLHZO
+
+[Document13]
 DocumentPath=..\..\Documents\AltiumLL\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1201,6 +1252,27 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+1V8|NetColor=$006E6EFF
+Net2=NetName=+3V3|NetColor=$006E6EFF
+Net3=NetName=+VUSB_FILT|NetColor=$006E6EFF
+Net4=NetName=NetIC?_5|NetColor=$00FF6EFF
+Net5=NetName=NetIC?_6|NetColor=$00FF6EFF
+Net6=NetName=ULPI_CLK|NetColor=$00FFFF6E
+Net7=NetName=ULPI_D0|NetColor=$00FFFF6E
+Net8=NetName=ULPI_D1|NetColor=$00FFFF6E
+Net9=NetName=ULPI_D2|NetColor=$00FFFF6E
+Net10=NetName=ULPI_D3|NetColor=$00FFFF6E
+Net11=NetName=ULPI_D4|NetColor=$00FFFF6E
+Net12=NetName=ULPI_D5|NetColor=$00FFFF6E
+Net13=NetName=ULPI_D6|NetColor=$00FFFF6E
+Net14=NetName=ULPI_D7|NetColor=$00FFFF6E
+Net15=NetName=ULPI_DIR|NetColor=$00FFFF6E
+Net16=NetName=ULPI_NXT|NetColor=$00FFFF6E
+Net17=NetName=ULPI_STP|NetColor=$00FFFF6E
+Net18=NetName=USB_D_N|NetColor=$00FF6EFF
+Net19=NetName=USB_D_P|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BAT165AX"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BAT165AX")
+        (spec "default")
+    )
+)

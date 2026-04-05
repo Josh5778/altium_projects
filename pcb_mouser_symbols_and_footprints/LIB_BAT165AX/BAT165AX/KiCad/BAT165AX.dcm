@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT165AX
+D 40V, 0.75A medium power Schottky barrier rectifier
+K
+F https://assets.nexperia.com/documents/data-sheet/BAT165A.pdf
+$ENDCMP
+#
+#End Doc Library

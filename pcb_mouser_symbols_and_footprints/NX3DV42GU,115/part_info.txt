@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=NX3DV42GU,115
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=10
+Version=1.1
+Released=2018-07-06 07:57:36
+Downloaded=2026-04-05 05:50:20
+3D=Y

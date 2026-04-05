@@ -1,0 +1,16 @@
+.NX3DV42GU_115 :1 ;USB Switch ICs NX3DV42GU/XQFN10///REEL 7 Q1/T1 *STANDARD MARK SM
+QFN40P140X180X50-10N
+*STM IC
+*NGS
+*PLB 1="D+" 2="D-" 3="GND" 4="HSD1-" 5="HSD1+" 6="HSD2-" 7="HSD2+" 8="'OE'" 9="VCC" 10="S"
+*MXP 10
+*DFN NX3DV42GU_115
+~!Mouser Part Number (771-NX3DV42GU115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/NX3DV42GU115?qs=cbprxTG2Yq%252BinzuyAklGVQ%3D%3D)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (NX3DV42GU,115)
+~!Link Datasheet (http://www.nxp.com/docs/en/data-sheet/NX3DV42.pdf)
+~!Height (0.5mm)
+~!3D_Model (NX3DV42GU,115)
+NX3DV42GU_115
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 7.1!U 6.1!U 10.1!U 9.1!U 8.1!U 

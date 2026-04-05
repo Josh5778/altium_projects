@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NX3DV42GU_115"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-06-07:57:36)
+    (mountForm default
+        (footprintRef "QFN40P140X180X50-10N")
+        (spec "System")
+    )
+)

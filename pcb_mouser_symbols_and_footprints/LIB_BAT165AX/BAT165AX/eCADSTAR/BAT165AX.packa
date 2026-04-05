@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BAT165AX"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-25-10:56:46)
+    (mountForm default
+        (footprintRef "BAT165AX")
+        (spec "System")
+    )
+)

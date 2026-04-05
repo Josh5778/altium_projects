@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECS2520MV130BNTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECS2520MV130BNTR")
+        (spec "default")
+    )
+)

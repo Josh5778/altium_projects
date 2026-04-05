@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BAT165AX
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2022-06-25 10:56:46
+Downloaded=2026-04-04 05:40:03
+3D=Y

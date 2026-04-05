@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BAT165AX'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "BAT165AX" (!) = "", "BAT165AX", "Other", "771-BAT165AX", "https://www.mouser.co.uk/ProductDetail/Nexperia/BAT165AX?qs=1fQ7IOp4WriMQ9TlJoQ5jw%3D%3D", "40V, 0.75A medium power Schottky barrier rectifier", "https://assets.nexperia.com/documents/data-sheet/BAT165A.pdf", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-2520MV-130-BN-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2021-09-22 05:44:27
+Downloaded=2026-04-05 05:25:45
+3D=Y

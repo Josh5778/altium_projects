@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NX3DV42GU_115'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "NX3DV42GU,115" (!) = "", "QFN40P140X180X50-10N", "Quad Flat No-Lead", "771-NX3DV42GU115", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/NX3DV42GU115?qs=cbprxTG2Yq%252BinzuyAklGVQ%3D%3D", "USB Switch ICs NX3DV42GU/XQFN10///REEL 7 Q1/T1 *STANDARD MARK SM", "http://www.nxp.com/docs/en/data-sheet/NX3DV42.pdf", "0.5 mm"
+END_PART
+
+END.

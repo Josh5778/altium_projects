@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB3318C_CP_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "USB3318C-CP-TR" (!) = "", "QFN50P400X400X100-25N-D", "Quad Flat No-Lead", "886-USB3318C-CP-TR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB3318C-CP-TR?qs=pA5MXup5wxEqKRd0j%252Bo%252BXA%3D%3D", "MICROCHIP - USB3318C-CP-TR - USB TRANSCEIVER, QFN-24", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562029", "1 mm"
+END_PART
+
+END.

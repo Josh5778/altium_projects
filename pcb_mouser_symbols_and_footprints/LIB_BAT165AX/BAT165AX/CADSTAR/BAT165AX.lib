@@ -1,0 +1,16 @@
+.BAT165AX :1 ;40V, 0.75A medium power Schottky barrier rectifier
+BAT165AX
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN BAT165AX
+~!Mouser Part Number (771-BAT165AX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/BAT165AX?qs=1fQ7IOp4WriMQ9TlJoQ5jw%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (BAT165AX)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/BAT165A.pdf)
+~!Height (1.1mm)
+~!3D_Model (BAT165AX)
+BAT165AX
+1.1!U 2.1!U 

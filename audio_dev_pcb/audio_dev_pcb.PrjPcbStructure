@@ -1,7 +1,8 @@
-Record=TopLevelDocument|FileName=Codec.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=high_level.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=MCU_IO.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=MCUPower.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=Power.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Codec.SchDoc|FileName=USB_FS.SchDoc|SheetNumber=5
+Record=TopLevelDocument|FileName=high_level.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_USB_HS|SchDesignator=U_USB_HS|FileName=USB_HS.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=USB_HS.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=Codec.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=MCU.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=MCU_Connections.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=Peripherals.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=high_level.SchDoc|FileName=Power.SchDoc|SheetNumber=3

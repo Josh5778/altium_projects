@@ -1,7 +1,7 @@
 *PADS-LIBRARY-PART-TYPES-V9*
 
 CG0402MLU-12G VARC1005X41N I ANA 7 1 0 0 0
-TIMESTAMP 2026.04.03.12.29.38
+TIMESTAMP 2026.04.04.05.41.54
 "Mouser Part Number" 652-CG0402MLU-12G
 "Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D
 "Manufacturer_Name" Bourns

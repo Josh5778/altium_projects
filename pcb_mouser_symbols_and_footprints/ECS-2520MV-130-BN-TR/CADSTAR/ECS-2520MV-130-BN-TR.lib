@@ -1,0 +1,16 @@
+.ECS-2520MV-130-BN-TR :1 ;Standard Clock Oscillators XO (Standard),13MHz,Standby (Power Down),CMOS, Multi-Volt,1.6 V 3.6 V,+/-50ppm,-40 C 85 C,6mA,Surface Mount,4-SMD, No Lead,(2.50mm x 2.00mm),(0.80mm)
+ECS2520MV130BNTR
+*STM Y
+*NGS
+*PLB 1="TRI-STATE" 2="GND" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ECS-2520MV-130-BN-TR
+~!Mouser Part Number (520-S2520MV130BNTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MV-130-BN-TR?qs=zW32dvEIR3txl7djIFQDkw%3D%3D)
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-2520MV-130-BN-TR)
+~!Link Datasheet (https://ecsxtal.com/store/pdf/ECS-2520MV.pdf)
+~!Height (0.9mm)
+~!3D_Model (ECS-2520MV-130-BN-TR)
+ECS-2520MV-130-BN-TR
+1.1!U 2.1!U 3.1!U 4.1!U 
