@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MSD12A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MSD12A")
+        (spec "default")
+    )
+)

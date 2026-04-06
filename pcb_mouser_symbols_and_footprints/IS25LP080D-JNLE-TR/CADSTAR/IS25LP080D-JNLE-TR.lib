@@ -1,0 +1,16 @@
+.IS25LP080D-JNLE-TR :1 ;8MB QSPI, 8-PIN SOP 150MIL, RO
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="CE#" 2="SO(IO1)" 3="WP#(IO2)" 4="GND" 5="SI(IO0)" 6="SCK" 7="HOLD# OR RESET# (IO3)" 8="VCC"
+*MXP 8
+*DFN IS25LP080D-JNLE-TR
+~!Mouser Part Number (870-IS25LP080DJNLETR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ISSI/IS25LP080D-JNLE-TR?qs=pif5%252B9MYt0VkH9msMJ5aTQ%3D%3D)
+~!Manufacturer_Name (Integrated Silicon Solution Inc.)
+~!Manufacturer_Part_Number (IS25LP080D-JNLE-TR)
+~!Link Datasheet (-)
+~!Height (1.75mm)
+~!3D_Model (IS25LP080D-JNLE-TR)
+IS25LP080D-JNLE-TR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

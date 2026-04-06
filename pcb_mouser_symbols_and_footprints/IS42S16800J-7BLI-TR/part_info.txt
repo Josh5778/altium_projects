@@ -1,0 +1,9 @@
+Manufacturer=Integrated Silicon Solution Inc.
+PartNumber=IS42S16800J-7BLI-TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=54
+Version=1.1
+Released=2025-05-10 04:09:39
+Downloaded=2026-04-06 03:57:33
+3D=Y

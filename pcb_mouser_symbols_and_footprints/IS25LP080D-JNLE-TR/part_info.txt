@@ -1,0 +1,9 @@
+Manufacturer=Integrated Silicon Solution Inc.
+PartNumber=IS25LP080D-JNLE-TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-11-22 08:50:14
+Downloaded=2026-04-06 07:12:49
+3D=Y

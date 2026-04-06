@@ -41,7 +41,11 @@
 
 /* Private variables ---------------------------------------------------------*/
 
+SD_HandleTypeDef hsd1;
+
 UART_HandleTypeDef huart1;
+
+SRAM_HandleTypeDef hsram1;
 
 /* USER CODE BEGIN PV */
 
@@ -52,6 +56,8 @@ void SystemClock_Config(void);
 static void MPU_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
+static void MX_FMC_Init(void);
+static void MX_SDMMC1_SD_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -94,6 +100,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
+  MX_FMC_Init();
+  MX_SDMMC1_SD_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -134,7 +142,16 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_DIV1;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 4;
+  RCC_OscInitStruct.PLL.PLLN = 10;
+  RCC_OscInitStruct.PLL.PLLP = 2;
+  RCC_OscInitStruct.PLL.PLLQ = 2;
+  RCC_OscInitStruct.PLL.PLLR = 2;
+  RCC_OscInitStruct.PLL.PLLRGE = RCC_PLL1VCIRANGE_3;
+  RCC_OscInitStruct.PLL.PLLVCOSEL = RCC_PLL1VCOMEDIUM;
+  RCC_OscInitStruct.PLL.PLLFRACN = 0;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -150,13 +167,44 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.AHBCLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB3CLKDivider = RCC_APB3_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_APB1_DIV1;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_APB2_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_APB2_DIV2;
   RCC_ClkInitStruct.APB4CLKDivider = RCC_APB4_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief SDMMC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SDMMC1_SD_Init(void)
+{
+
+  /* USER CODE BEGIN SDMMC1_Init 0 */
+
+  /* USER CODE END SDMMC1_Init 0 */
+
+  /* USER CODE BEGIN SDMMC1_Init 1 */
+
+  /* USER CODE END SDMMC1_Init 1 */
+  hsd1.Instance = SDMMC1;
+  hsd1.Init.ClockEdge = SDMMC_CLOCK_EDGE_RISING;
+  hsd1.Init.ClockPowerSave = SDMMC_CLOCK_POWER_SAVE_DISABLE;
+  hsd1.Init.BusWide = SDMMC_BUS_WIDE_1B;
+  hsd1.Init.HardwareFlowControl = SDMMC_HARDWARE_FLOW_CONTROL_DISABLE;
+  hsd1.Init.ClockDiv = 0;
+  if (HAL_SD_Init(&hsd1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SDMMC1_Init 2 */
+
+  /* USER CODE END SDMMC1_Init 2 */
+
 }
 
 /**
@@ -207,6 +255,60 @@ static void MX_USART1_UART_Init(void)
 
 }
 
+/* FMC initialization function */
+static void MX_FMC_Init(void)
+{
+
+  /* USER CODE BEGIN FMC_Init 0 */
+
+  /* USER CODE END FMC_Init 0 */
+
+  FMC_NORSRAM_TimingTypeDef Timing = {0};
+
+  /* USER CODE BEGIN FMC_Init 1 */
+
+  /* USER CODE END FMC_Init 1 */
+
+  /** Perform the SRAM1 memory initialization sequence
+  */
+  hsram1.Instance = FMC_NORSRAM_DEVICE;
+  hsram1.Extended = FMC_NORSRAM_EXTENDED_DEVICE;
+  /* hsram1.Init */
+  hsram1.Init.NSBank = FMC_NORSRAM_BANK1;
+  hsram1.Init.DataAddressMux = FMC_DATA_ADDRESS_MUX_DISABLE;
+  hsram1.Init.MemoryType = FMC_MEMORY_TYPE_SRAM;
+  hsram1.Init.MemoryDataWidth = FMC_NORSRAM_MEM_BUS_WIDTH_16;
+  hsram1.Init.BurstAccessMode = FMC_BURST_ACCESS_MODE_DISABLE;
+  hsram1.Init.WaitSignalPolarity = FMC_WAIT_SIGNAL_POLARITY_LOW;
+  hsram1.Init.WaitSignalActive = FMC_WAIT_TIMING_BEFORE_WS;
+  hsram1.Init.WriteOperation = FMC_WRITE_OPERATION_ENABLE;
+  hsram1.Init.WaitSignal = FMC_WAIT_SIGNAL_DISABLE;
+  hsram1.Init.ExtendedMode = FMC_EXTENDED_MODE_DISABLE;
+  hsram1.Init.AsynchronousWait = FMC_ASYNCHRONOUS_WAIT_DISABLE;
+  hsram1.Init.WriteBurst = FMC_WRITE_BURST_DISABLE;
+  hsram1.Init.ContinuousClock = FMC_CONTINUOUS_CLOCK_SYNC_ONLY;
+  hsram1.Init.WriteFifo = FMC_WRITE_FIFO_ENABLE;
+  hsram1.Init.PageSize = FMC_PAGE_SIZE_NONE;
+  /* Timing */
+  Timing.AddressSetupTime = 15;
+  Timing.AddressHoldTime = 15;
+  Timing.DataSetupTime = 255;
+  Timing.BusTurnAroundDuration = 15;
+  Timing.CLKDivision = 16;
+  Timing.DataLatency = 17;
+  Timing.AccessMode = FMC_ACCESS_MODE_A;
+  /* ExtTiming */
+
+  if (HAL_SRAM_Init(&hsram1, &Timing, NULL) != HAL_OK)
+  {
+    Error_Handler( );
+  }
+
+  /* USER CODE BEGIN FMC_Init 2 */
+
+  /* USER CODE END FMC_Init 2 */
+}
+
 /**
   * @brief GPIO Initialization Function
   * @param None
@@ -219,6 +321,9 @@ static void MX_GPIO_Init(void)
   /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOE_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 

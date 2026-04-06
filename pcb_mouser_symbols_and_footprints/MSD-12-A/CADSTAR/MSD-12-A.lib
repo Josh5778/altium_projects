@@ -1,0 +1,17 @@
+.MSD-12-A :1 ;MSD-12-A - Micro SD Card Connector, 9 Contacts, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.45 mm Height Above Board, Gold Flash
+MSD12A
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=CD1
+*PLB 1="DAT2" 2="CD/DAT3" 3="CMD" 4="VDD" 5="CLK" 6="VSS" 7="DAT0" 8="DAT1" 9="GND_1" 10="GND_2" 11="GND_3" 12="GND_4" 13="GND_5" 14="GND_6" 15="GND_7" 16="CD1"
+*MXP 16
+*DFN MSD-12-A
+~!Mouser Part Number (179-MSD-12-A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-12-A?qs=Z%252BL2brAPG1KTGgvYejyeAQ%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (MSD-12-A)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/MSD-12-A.pdf)
+~!Height (1.6mm)
+~!3D_Model (MSD-12-A)
+MSD-12-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

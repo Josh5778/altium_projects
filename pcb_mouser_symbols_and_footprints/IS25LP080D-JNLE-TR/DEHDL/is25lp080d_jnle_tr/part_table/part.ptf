@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IS25LP080D_JNLE_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Integrated Silicon Solution Inc.", "IS25LP080D-JNLE-TR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "870-IS25LP080DJNLETR", "https://www.mouser.co.uk/ProductDetail/ISSI/IS25LP080D-JNLE-TR?qs=pif5%252B9MYt0VkH9msMJ5aTQ%3D%3D", "8MB QSPI, 8-PIN SOP 150MIL, RO", "", "1.75 mm"
+END_PART
+
+END.

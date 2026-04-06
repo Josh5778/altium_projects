@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MCFKRZAM
 
 [Document2]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AOBFAPCU
-
-[Document3]
 DocumentPath=MCU_Connections.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,14 +83,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGCVTBOH
 
-[Document4]
+[Document3]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -115,7 +98,24 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CCSQGCWN
+DocumentUniqueId=USAGWQPD
+
+[Document4]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOBFAPCU
 
 [Document5]
 DocumentPath=USB_HS.SchDoc
@@ -135,6 +135,23 @@ GenerateClassCluster=0
 DocumentUniqueId=SRMTGVMZ
 
 [Document6]
+DocumentPath=Memory.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IQPGLHPU
+
+[Document7]
 DocumentPath=Peripherals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJXNJPME
 
-[Document7]
+[Document8]
 DocumentPath=Codec.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DGUQVFXG
 
-[Document8]
+[Document9]
 DocumentPath=Input_Output_Filtering.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YSVLHVPY
 
-[Document9]
+[Document10]
 DocumentPath=audio_dev_pcb.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
+DocumentPath=..\pcb_mouser_symbols_and_footprints\Altium\SBH11-PBPC-D17-ST-BK\SBH11-PBPC-D17-ST-BK.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JWYRDRXA
+
+[Document12]
 DocumentPath=misc_component_libs\Components - 05.04.26 - 15.04.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
-[Document11]
+[Document13]
 DocumentPath=..\..\Documents\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +270,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
-[Document12]
+[Document14]
+DocumentPath=..\pcb_mouser_symbols_and_footprints\Altium\SBH11-PBPC-D17-ST-BK\SBH11-PBPC-D17-ST-BK.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TZMFKYVQ
+
+[Document15]
 DocumentPath=misc_component_libs\Components - 05.04.26 - 15.04.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VIMWLHZO
 
-[Document13]
+[Document16]
 DocumentPath=..\..\Documents\AltiumLL\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1

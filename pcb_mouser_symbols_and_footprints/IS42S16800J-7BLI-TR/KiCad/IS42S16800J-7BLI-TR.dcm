@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS42S16800J-7BLI-TR
+D DRAM 128M, 3.3V, SDRAM, 8Mx16, 143Mhz, 54 ball BGA (8mmx8mm) ROHS, IT, T&R
+K
+F https://www.mouser.be/datasheet/2/198/42_45S81600J_16800J-3460583.pdf
+$ENDCMP
+#
+#End Doc Library

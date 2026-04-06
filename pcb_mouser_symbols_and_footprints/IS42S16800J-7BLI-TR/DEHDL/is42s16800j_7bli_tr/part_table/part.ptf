@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IS42S16800J_7BLI_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Integrated Silicon Solution Inc.", "IS42S16800J-7BLI-TR" (!) = "", "BGA54C80P9X9_800X800X120", "BGA", "", "", "DRAM 128M, 3.3V, SDRAM, 8Mx16, 143Mhz, 54 ball BGA (8mmx8mm) ROHS, IT, T&R", "https://www.mouser.be/datasheet/2/198/42_45S81600J_16800J-3460583.pdf", "1.2 mm"
+END_PART
+
+END.

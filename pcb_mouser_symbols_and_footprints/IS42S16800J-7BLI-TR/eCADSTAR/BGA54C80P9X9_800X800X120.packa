@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IS42S16800J-7BLI-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-02-00:12:38)
+    (mountForm default
+        (footprintRef "BGA54C80P9X9_800X800X120")
+        (spec "System")
+    )
+)

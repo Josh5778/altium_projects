@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MSD_12_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "MSD-12-A" (!) = "", "MSD12A", "Other", "179-MSD-12-A", "https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-12-A?qs=Z%252BL2brAPG1KTGgvYejyeAQ%3D%3D", "MSD-12-A - Micro SD Card Connector, 9 Contacts, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.45 mm Height Above Board, Gold Flash", "https://www.sameskydevices.com/product/resource/MSD-12-A.pdf", "1.6 mm"
+END_PART
+
+END.
