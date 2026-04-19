@@ -3,8 +3,9 @@ Record=SheetSymbol|SourceDocument=MCU_Connections.SchDoc|Designator=U_MCU|SchDes
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Codec.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Expression_Pedal.SchDoc|SheetNumber=9
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=high_level.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=11
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Memory.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Peripherals.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Potentiometers.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Power.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=USB_HS.SchDoc|SheetNumber=5
