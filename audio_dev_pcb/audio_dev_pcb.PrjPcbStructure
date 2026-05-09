@@ -1,11 +1,11 @@
-Record=TopLevelDocument|FileName=MCU_Connections.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=high_level.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Codec|SchDesignator=U_Codec|FileName=Codec.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=Codec.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Expression_Pedal|SchDesignator=U_Expression_Pedal|FileName=Expression_Pedal.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=Expression_Pedal.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Input_Output_Filtering|SchDesignator=U_Input_Output_Filtering|FileName=Input_Output_Filtering.SchDoc|SheetNumber=11|SymbolType=Normal|RawFileName=Input_Output_Filtering.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_MCU_Connections|SchDesignator=U_MCU_Connections|FileName=MCU_Connections.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=MCU_Connections.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Memory|SchDesignator=U_Memory|FileName=Memory.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=Memory.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Peripherals|SchDesignator=U_Peripherals|FileName=Peripherals.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=Peripherals.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Potentiometers|SchDesignator=U_Potentiometers|FileName=Potentiometers.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=Potentiometers.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_Power|SchDesignator=U_Power|FileName=Power.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=high_level.SchDoc|Designator=U_USB_HS|SchDesignator=U_USB_HS|FileName=USB_HS.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=USB_HS.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MCU_Connections.SchDoc|Designator=U_MCU|SchDesignator=U_MCU|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Codec.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Expression_Pedal.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=high_level.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Input_Output_Filtering.SchDoc|SheetNumber=11
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Memory.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Peripherals.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Potentiometers.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=Power.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=MCU_Connections.SchDoc|FileName=USB_HS.SchDoc|SheetNumber=5
