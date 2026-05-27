@@ -1,0 +1,46 @@
+Add component: Footprint Not Found BAT165AX
+Add component: Footprint Not Found BAT165AX
+Add component: Footprint Not Found SOT95P280X145-5N
+Add component: Footprint Not Found PCM12SMTBR
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Add Pin To Net: Unknown Pin: Pin IC12-1
+Add Pin To Net: Unknown Pin: Pin IC12-3
+Add Pin To Net: Unknown Pin: Pin IC12-4
+Add Pin To Net: Unknown Pin: Pin IC12-5
+Add Pin To Net: Unknown Pin: Pin RV1-1
+Add Pin To Net: Unknown Pin: Pin RV1-2
+Add Pin To Net: Unknown Pin: Pin RV2-1
+Add Pin To Net: Unknown Pin: Pin RV2-2
+Add Pin To Net: Unknown Pin: Pin RV3-1
+Add Pin To Net: Unknown Pin: Pin RV3-2
+Add Pin To Net: Unknown Pin: Pin RV4-1
+Add Pin To Net: Unknown Pin: Pin RV4-2
+Add Pin To Net: Unknown Pin: Pin RV5-1
+Add Pin To Net: Unknown Pin: Pin RV5-2
+Add Pin To Net: Unknown Pin: Pin RV6-1
+Add Pin To Net: Unknown Pin: Pin RV6-2
+Add Pin To Net: Unknown Pin: Pin RV7-1
+Add Pin To Net: Unknown Pin: Pin RV7-2
+Add Pin To Net: Unknown Pin: Pin RV8-1
+Add Pin To Net: Unknown Pin: Pin RV8-2
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Add Net: Net with name "+3V3" already exists
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "PB1" already exists
+Add Class Member: Failed to add class member : Component D1 BAT165AX
+Add Class Member: Failed to add class member : Component D5 BAT165AX
+Add Class Member: Failed to add class member : Component IC12 TLV9161IDBVR
+Add Class Member: Failed to add class member : Component RV1 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV2 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV3 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV4 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV5 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV6 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV7 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV8 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component S1 PCM12SMTBR

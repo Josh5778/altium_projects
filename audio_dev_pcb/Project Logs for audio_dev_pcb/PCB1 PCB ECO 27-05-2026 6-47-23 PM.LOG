@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=Audio_In_1_Raw_L_Ring Pin=J5-1
+Removed Pin From Net: NetName=+VCC Pin=J5-3
+Removed Pin From Net: NetName=+VCC Pin=J5-4
+Removed Member From Class: ClassName=U_Power Member=J5
+Added Component: Designator=D1(BAT165AX)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BAT165AX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bat165ax/nexperia?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://assets.nexperia.com/documents/data-sheet/BAT165A.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BAT165AX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "771-BAT165AX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Nexperia/BAT165AX?qs=1fQ7IOp4WriMQ9TlJoQ5jw%3D%3D"; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOT95P280X145-5N
+Added Component: Designator=J?(RASM742TRX)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "RASM742TRX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rasm742trx/switchcraft?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ph/ProductDetail/Switchcraft/RASM742TRX?qs=mcPJWgAPNrdcPY6U4InXHg%3D%3D&srsltid=AfmBOooMj0kEPMqk1k0gwFmsjJjNoSaW62hNPqqtUxzbBym_46hZI4RS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.334mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Switchcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RASM742TRX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "502-RASM742TRX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Switchcraft/RASM742TRX?qs=mcPJWgAPNrdcPY6U4InXHg%3D%3D"; VariantName = "[No Variations]"
+Add component: Footprint Not Found PCM12SMTBR
+Added Pin To Net: NetName=+VCC_FILT Pin=D1-1
+Added Pin To Net: NetName=+VUSB_FILT Pin=D1-2
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Add Pin To Net: Unknown Pin: Pin IC12-1
+Add Pin To Net: Unknown Pin: Pin IC12-2
+Add Pin To Net: Unknown Pin: Pin IC12-3
+Add Pin To Net: Unknown Pin: Pin IC12-4
+Add Pin To Net: Unknown Pin: Pin IC12-5
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J?-1
+Added Pin To Net: NetName=+VCC Pin=J?-3
+Added Pin To Net: NetName=+VCC Pin=J?-4
+Add Pin To Net: Unknown Pin: Pin RV1-1
+Add Pin To Net: Unknown Pin: Pin RV1-2
+Add Pin To Net: Unknown Pin: Pin RV2-1
+Add Pin To Net: Unknown Pin: Pin RV2-2
+Add Pin To Net: Unknown Pin: Pin RV3-1
+Add Pin To Net: Unknown Pin: Pin RV3-2
+Add Pin To Net: Unknown Pin: Pin RV4-1
+Add Pin To Net: Unknown Pin: Pin RV4-2
+Add Pin To Net: Unknown Pin: Pin RV5-1
+Add Pin To Net: Unknown Pin: Pin RV5-2
+Add Pin To Net: Unknown Pin: Pin RV6-1
+Add Pin To Net: Unknown Pin: Pin RV6-2
+Add Pin To Net: Unknown Pin: Pin RV7-1
+Add Pin To Net: Unknown Pin: Pin RV7-2
+Add Pin To Net: Unknown Pin: Pin RV8-1
+Add Pin To Net: Unknown Pin: Pin RV8-2
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Add Net: Net with name "PB1" already exists
+Added Member To Class: ClassName=U_Power Member=Component D1 BAT165AX
+Add Class Member: Failed to add class member : Component D5 BAT165AX
+Add Class Member: Failed to add class member : Component IC12 TLV9161IDBVR
+Added Member To Class: ClassName=U_Power Member=Component J? RASM742TRX
+Add Class Member: Failed to add class member : Component RV1 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV2 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV3 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV4 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV5 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV6 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV7 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV8 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component S1 PCM12SMTBR

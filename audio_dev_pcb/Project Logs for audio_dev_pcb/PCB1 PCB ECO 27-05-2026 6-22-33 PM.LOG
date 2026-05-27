@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=+3V3 Pin=J9-1
+Add component: Footprint Not Found BAT165AX
+Add component: Footprint Not Found BAT165AX
+Add component: Footprint Not Found SOT95P280X145-5N
+Add component: Footprint Not Found PCM12SMTBR
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=C106-2
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=C107-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Added Pin To Net: NetName=PF11 Pin=IC11-F8
+Added Pin To Net: NetName=PA7 Pin=IC11-F9
+Added Pin To Net: NetName=PG4 Pin=IC11-G7
+Added Pin To Net: NetName=PG5 Pin=IC11-G8
+Added Pin To Net: NetName=PC4 Pin=IC11-G9
+Add Pin To Net: Unknown Pin: Pin IC12-1
+Add Pin To Net: Unknown Pin: Pin IC12-2
+Add Pin To Net: Unknown Pin: Pin IC12-3
+Add Pin To Net: Unknown Pin: Pin IC12-4
+Add Pin To Net: Unknown Pin: Pin IC12-5
+Added Pin To Net: NetName=+3V3 Pin=J6-1
+Added Pin To Net: NetName=+3V3 Pin=J6-4
+Added Pin To Net: NetName=+3V3 Pin=J6-7
+Added Pin To Net: NetName=+3V3 Pin=J6-10
+Added Pin To Net: NetName=+3V3 Pin=J6-13
+Added Pin To Net: NetName=+3V3 Pin=J6-16
+Added Pin To Net: NetName=+3V3 Pin=J6-19
+Added Pin To Net: NetName=+3V3 Pin=J6-22
+Added Pin To Net: NetName=MCU_PDR_ON Pin=J9-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J9-3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=R61-1
+Add Pin To Net: Unknown Pin: Pin RV1-1
+Add Pin To Net: Unknown Pin: Pin RV1-2
+Add Pin To Net: Unknown Pin: Pin RV2-1
+Add Pin To Net: Unknown Pin: Pin RV2-2
+Add Pin To Net: Unknown Pin: Pin RV3-1
+Add Pin To Net: Unknown Pin: Pin RV3-2
+Add Pin To Net: Unknown Pin: Pin RV4-1
+Add Pin To Net: Unknown Pin: Pin RV4-2
+Add Pin To Net: Unknown Pin: Pin RV5-1
+Add Pin To Net: Unknown Pin: Pin RV5-2
+Add Pin To Net: Unknown Pin: Pin RV6-1
+Add Pin To Net: Unknown Pin: Pin RV6-2
+Add Pin To Net: Unknown Pin: Pin RV7-1
+Add Pin To Net: Unknown Pin: Pin RV7-2
+Add Pin To Net: Unknown Pin: Pin RV8-1
+Add Pin To Net: Unknown Pin: Pin RV8-2
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Added Pin To Net: NetName=NetC37_2 Pin=C37-2
+Added Pin To Net: NetName=NetC37_2 Pin=IC3-10
+Added Net: Name=NetC37_2
+Added Pin To Net: NetName=NetC42_2 Pin=C42-2
+Added Pin To Net: NetName=NetC42_2 Pin=IC3-12
+Added Net: Name=NetC42_2
+Added Pin To Net: NetName=NetC60_2 Pin=C60-2
+Added Pin To Net: NetName=NetC60_2 Pin=IC3-14
+Added Net: Name=NetC60_2
+Added Pin To Net: NetName=NetC65_2 Pin=C65-2
+Added Pin To Net: NetName=NetC65_2 Pin=IC3-16
+Added Net: Name=NetC65_2
+Add Net: Net with name "PB1" already exists
+Add Class Member: Failed to add class member : Component D1 BAT165AX
+Add Class Member: Failed to add class member : Component D5 BAT165AX
+Add Class Member: Failed to add class member : Component IC12 TLV9161IDBVR
+Add Class Member: Failed to add class member : Component RV1 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV2 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV3 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV4 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV5 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV6 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV7 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV8 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component S1 PCM12SMTBR

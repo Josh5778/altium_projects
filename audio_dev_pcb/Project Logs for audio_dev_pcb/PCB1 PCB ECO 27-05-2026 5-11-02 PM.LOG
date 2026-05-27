@@ -1,0 +1,501 @@
+Removed Pin From Net: NetName=NetIC4_1 Pin=R18-2
+Removed Pin From Net: NetName=NetIC5_1 Pin=R22-2
+Removed Pin From Net: NetName=NetIC7_1 Pin=R32-1
+Removed Pin From Net: NetName=NetIC8_1 Pin=R40-2
+Removed Pin From Net: NetName=NetIC9_1 Pin=R44-2
+Add component: Footprint Not Found BAT165AX
+Add component: Footprint Not Found BAT165AX
+Added Component: Designator=IC1(QFN50P400X400X100-25N-D)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "null?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562029"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "886-USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB3318C-CP-TR?qs=pA5MXup5wxEqKRd0j%252Bo%252BXA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC2(QFN40P140X180X50-10N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "NX3DV42GU,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/nx3dv42gu115/nxp-semiconductors?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.nxp.com/docs/en/data-sheet/NX3DV42.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "NXP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NX3DV42GU,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "771-NX3DV42GU115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/NX3DV42GU115?qs=cbprxTG2Yq%252BinzuyAklGVQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC3(TLV320AIC3104IRHBR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV320AIC3104IRHBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv320aic3104irhbr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/ds/symlink/tlv320aic3104.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV320AIC3104IRHBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV320C3104IRHBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV320AIC3104IRHBR?qs=t6sYTo5dwUzbYVbTYmm%2FAg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC4(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC6(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC7(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC8(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC9(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC10(SOIC127P600X175-8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "IS25LP080D-JNLE-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/is25lp080d-jnle-tr/integrated-silicon-solution-inc?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/198/25LP-WP080D-1003192.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Integrated Silicon Solution Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IS25LP080D-JNLE-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "870-IS25LP080DJNLETR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ISSI/IS25LP080D-JNLE-TR?qs=pif5%252B9MYt0VkH9msMJ5aTQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC11(IS42S16800J-7BLI-TR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.be/datasheet/2/198/42_45S81600J_16800J-3460583.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Integrated Silicon Solution Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IS42S16800J-7BLI-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOT95P280X145-5N
+Added Component: Designator=IC13(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC14(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC15(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC16(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC17(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC18(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC19(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC20(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J4(MSD12A)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "MSD-12-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/msd-12-a/cui-devices?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.sameskydevices.com/product/resource/MSD-12-A.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MSD-12-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "179-MSD-12-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-12-A?qs=Z%252BL2brAPG1KTGgvYejyeAQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J8(37946274)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "3-794627-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/3-794627-4/te-connectivity?utm_currency=USD&region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794627-4&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "3-794627-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-3-794627-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794627-4?qs=FGSkXkE%2FZ3Wegb353BDzUA%3D%3D"; VariantName = "[No Variations]"
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found VARC1005X41N
+Add component: Footprint Not Found PCM12SMTBR
+Added Component: Designator=Y3(ECS2520MV130BNTR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "ECS-2520MV-130-BN-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ecs-2520mv-130-bn-tr/ecs-international?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://ecsxtal.com/store/pdf/ECS-2520MV.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "ECS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ECS-2520MV-130-BN-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "520-S2520MV130BNTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MV-130-BN-TR?qs=zW32dvEIR3txl7djIFQDkw%3D%3D"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Added Pin To Net: NetName=USB_PHY_VBUS Pin=IC1-2
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC1-3
+Added Pin To Net: NetName=USB_+3V3 Pin=IC1-4
+Added Pin To Net: NetName=USB_HS_D_N Pin=IC1-5
+Added Pin To Net: NetName=USB_HS_D_P Pin=IC1-6
+Added Pin To Net: NetName=PB5 Pin=IC1-8
+Added Pin To Net: NetName=PB13 Pin=IC1-9
+Added Pin To Net: NetName=PB12 Pin=IC1-10
+Added Pin To Net: NetName=PB11 Pin=IC1-11
+Added Pin To Net: NetName=PA5 Pin=IC1-12
+Added Pin To Net: NetName=PB10 Pin=IC1-13
+Added Pin To Net: NetName=PB1 Pin=IC1-14
+Added Pin To Net: NetName=PB0 Pin=IC1-15
+Added Pin To Net: NetName=PA3 Pin=IC1-16
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC1-17
+Added Pin To Net: NetName=PC3 Pin=IC1-18
+Added Pin To Net: NetName=PC2 Pin=IC1-19
+Added Pin To Net: NetName=PC0 Pin=IC1-20
+Added Pin To Net: NetName=+1V8 Pin=IC1-21
+Added Pin To Net: NetName=USB_NRST Pin=IC1-22
+Added Pin To Net: NetName=USB_REFCLK_13_MHZ Pin=IC1-23
+Added Pin To Net: NetName=USB_RBIAS Pin=IC1-24
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC1-25
+Added Pin To Net: NetName=USB_D_P Pin=IC2-1
+Added Pin To Net: NetName=USB_D_N Pin=IC2-2
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC2-3
+Added Pin To Net: NetName=USB_HS_D_N Pin=IC2-4
+Added Pin To Net: NetName=USB_HS_D_P Pin=IC2-5
+Added Pin To Net: NetName=FS_SIG2 Pin=IC2-6
+Added Pin To Net: NetName=FS_SIG1 Pin=IC2-7
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC2-8
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC2-9
+Added Pin To Net: NetName=PA4 Pin=IC2-10
+Added Pin To Net: NetName=PE2 Pin=IC3-1
+Added Pin To Net: NetName=PE5 Pin=IC3-2
+Added Pin To Net: NetName=PE4 Pin=IC3-3
+Added Pin To Net: NetName=PE6 Pin=IC3-4
+Added Pin To Net: NetName=PE3 Pin=IC3-5
+Added Pin To Net: NetName=NetC24_2 Pin=IC3-6
+Added Pin To Net: NetName=3V3 Pin=IC3-7
+Added Pin To Net: NetName=PB6 Pin=IC3-8
+Added Pin To Net: NetName=PB7 Pin=IC3-9
+Added Pin To Net: NetName=NetIC3_10 Pin=IC3-10
+Added Pin To Net: NetName=NetIC3_11 Pin=IC3-11
+Added Pin To Net: NetName=NetIC3_12 Pin=IC3-12
+Added Pin To Net: NetName=NetIC3_13 Pin=IC3-13
+Added Pin To Net: NetName=NetIC3_14 Pin=IC3-14
+Added Pin To Net: NetName=NetIC3_15 Pin=IC3-15
+Added Pin To Net: NetName=NetIC3_16 Pin=IC3-16
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC3-17
+Added Pin To Net: NetName=3V3 Pin=IC3-18
+Added Pin To Net: NetName=NetC55_2 Pin=IC3-19
+Added Pin To Net: NetName=NetIC3_20 Pin=IC3-20
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC3-21
+Added Pin To Net: NetName=NetIC3_20 Pin=IC3-22
+Added Pin To Net: NetName=NetC54_2 Pin=IC3-23
+Added Pin To Net: NetName=3V3 Pin=IC3-24
+Added Pin To Net: NetName=3V3 Pin=IC3-25
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC3-26
+Added Pin To Net: NetName=QSPI_CLK Pin=IC3-31
+Added Pin To Net: NetName=1V8 Pin=IC3-32
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC3-33
+Added Pin To Net: NetName=NetIC4_1 Pin=IC4-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC4-2
+Added Pin To Net: NetName=BUFF_IN_LEFT Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_1 Pin=IC4-4
+Added Pin To Net: NetName=+5VA Pin=IC4-5
+Added Pin To Net: NetName=NetIC5_1 Pin=IC5-1
+Added Pin To Net: NetName=+5VA Pin=IC5-5
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC6-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC6-2
+Added Pin To Net: NetName=BUFF_IN_LEFT Pin=IC6-3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC6-4
+Added Pin To Net: NetName=+5VA Pin=IC6-5
+Added Pin To Net: NetName=NetIC7_1 Pin=IC7-1
+Added Pin To Net: NetName=NetIC7_1 Pin=IC7-4
+Added Pin To Net: NetName=NetIC8_1 Pin=IC8-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC8-2
+Added Pin To Net: NetName=OUT_FILT_L Pin=IC8-3
+Added Pin To Net: NetName=NetIC8_1 Pin=IC8-4
+Added Pin To Net: NetName=+5VA Pin=IC8-5
+Added Pin To Net: NetName=NetIC9_1 Pin=IC9-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC9-2
+Added Pin To Net: NetName=OUT_FILT_R Pin=IC9-3
+Added Pin To Net: NetName=NetIC9_1 Pin=IC9-4
+Added Pin To Net: NetName=+5VA Pin=IC9-5
+Added Pin To Net: NetName=NetIC10_1 Pin=IC10-1
+Added Pin To Net: NetName=PF9 Pin=IC10-2
+Added Pin To Net: NetName=PF7 Pin=IC10-3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC10-4
+Added Pin To Net: NetName=PF8 Pin=IC10-5
+Added Pin To Net: NetName=QSPI_CLK Pin=IC10-6
+Added Pin To Net: NetName=PF6 Pin=IC10-7
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC10-8
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-A1
+Added Pin To Net: NetName=PD10 Pin=IC11-A2
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-A3
+Added Pin To Net: NetName=PD14 Pin=IC11-A8
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-A9
+Added Pin To Net: NetName=PD9 Pin=IC11-B1
+Added Pin To Net: NetName=PD8 Pin=IC11-B2
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-B3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-B7
+Added Pin To Net: NetName=PD0 Pin=IC11-B8
+Added Pin To Net: NetName=PD15 Pin=IC11-B9
+Added Pin To Net: NetName=PE15 Pin=IC11-C1
+Added Pin To Net: NetName=PE14 Pin=IC11-C2
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-C3
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-C7
+Added Pin To Net: NetName=PE7 Pin=IC11-C8
+Added Pin To Net: NetName=PD1 Pin=IC11-C9
+Added Pin To Net: NetName=PE13 Pin=IC11-D1
+Added Pin To Net: NetName=PE12 Pin=IC11-D2
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-D3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-D7
+Added Pin To Net: NetName=PE9 Pin=IC11-D8
+Added Pin To Net: NetName=PE8 Pin=IC11-D9
+Added Pin To Net: NetName=PE11 Pin=IC11-E1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-E3
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-E7
+Added Pin To Net: NetName=RAM_DML Pin=IC11-E8
+Added Pin To Net: NetName=PE10 Pin=IC11-E9
+Added Pin To Net: NetName=RAM_DMH Pin=IC11-F1
+Added Pin To Net: NetName=FMC_SDCLK Pin=IC11-F2
+Added Pin To Net: NetName=PC5 Pin=IC11-F3
+Added Pin To Net: NetName=PG15 Pin=IC11-F7
+Added Pin To Net: NetName=RAM_NRAS Pin=IC11-F8
+Added Pin To Net: NetName=RAM_NWE Pin=IC11-F9
+Added Pin To Net: NetName=PG1 Pin=IC11-G2
+Added Pin To Net: NetName=PF15 Pin=IC11-G3
+Added Pin To Net: NetName=BA0 Pin=IC11-G7
+Added Pin To Net: NetName=BA1 Pin=IC11-G8
+Added Pin To Net: NetName=RAM_NCS Pin=IC11-G9
+Added Pin To Net: NetName=PF14 Pin=IC11-H1
+Added Pin To Net: NetName=PF13 Pin=IC11-H2
+Added Pin To Net: NetName=PF12 Pin=IC11-H3
+Added Pin To Net: NetName=PF0 Pin=IC11-H7
+Added Pin To Net: NetName=RAM_A1 Pin=IC11-H8
+Added Pin To Net: NetName=PG0 Pin=IC11-H9
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC11-J1
+Added Pin To Net: NetName=PF5 Pin=IC11-J2
+Added Pin To Net: NetName=PF4 Pin=IC11-J3
+Added Pin To Net: NetName=PF3 Pin=IC11-J7
+Added Pin To Net: NetName=PF2 Pin=IC11-J8
+Added Pin To Net: NetName=MCU_PDR_ON Pin=IC11-J9
+Add Pin To Net: Unknown Pin: Pin IC12-1
+Add Pin To Net: Unknown Pin: Pin IC12-3
+Add Pin To Net: Unknown Pin: Pin IC12-4
+Add Pin To Net: Unknown Pin: Pin IC12-5
+Added Pin To Net: NetName=GND Pin=IC13-2
+Added Pin To Net: NetName=NetIC13_3 Pin=IC13-3
+Added Pin To Net: NetName=+5VA Pin=IC13-5
+Added Pin To Net: NetName=GND Pin=IC14-2
+Added Pin To Net: NetName=NetIC14_3 Pin=IC14-3
+Added Pin To Net: NetName=+5VA Pin=IC14-5
+Added Pin To Net: NetName=NetIC15_1 Pin=IC15-1
+Added Pin To Net: NetName=GND Pin=IC15-2
+Added Pin To Net: NetName=NetIC15_3 Pin=IC15-3
+Added Pin To Net: NetName=NetIC15_1 Pin=IC15-4
+Added Pin To Net: NetName=+5VA Pin=IC15-5
+Added Pin To Net: NetName=NetIC16_1 Pin=IC16-1
+Added Pin To Net: NetName=GND Pin=IC16-2
+Added Pin To Net: NetName=NetIC16_3 Pin=IC16-3
+Added Pin To Net: NetName=NetIC16_1 Pin=IC16-4
+Added Pin To Net: NetName=+5VA Pin=IC16-5
+Added Pin To Net: NetName=NetIC17_1 Pin=IC17-1
+Added Pin To Net: NetName=GND Pin=IC17-2
+Added Pin To Net: NetName=NetIC17_3 Pin=IC17-3
+Added Pin To Net: NetName=NetIC17_1 Pin=IC17-4
+Added Pin To Net: NetName=+5VA Pin=IC17-5
+Added Pin To Net: NetName=GND Pin=IC18-2
+Added Pin To Net: NetName=NetIC18_3 Pin=IC18-3
+Added Pin To Net: NetName=+5VA Pin=IC18-5
+Added Pin To Net: NetName=NetIC19_1 Pin=IC19-1
+Added Pin To Net: NetName=GND Pin=IC19-2
+Added Pin To Net: NetName=NetIC19_3 Pin=IC19-3
+Added Pin To Net: NetName=NetIC19_1 Pin=IC19-4
+Added Pin To Net: NetName=+5VA Pin=IC19-5
+Added Pin To Net: NetName=GND Pin=IC20-2
+Added Pin To Net: NetName=NetIC20_3 Pin=IC20-3
+Added Pin To Net: NetName=PG11 Pin=J4-1
+Added Pin To Net: NetName=PG12 Pin=J4-2
+Added Pin To Net: NetName=PD7 Pin=J4-3
+Added Pin To Net: NetName=MCU_PDR_ON Pin=J4-4
+Added Pin To Net: NetName=PD6 Pin=J4-5
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-6
+Added Pin To Net: NetName=PG9 Pin=J4-7
+Added Pin To Net: NetName=PG10 Pin=J4-8
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-9
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-10
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-11
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-12
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-13
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-14
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J4-15
+Added Pin To Net: NetName=PF6 Pin=J4-CD1
+Added Pin To Net: NetName=+3V3_RS Pin=J8-1
+Added Pin To Net: NetName=RS485_D_P Pin=J8-2
+Added Pin To Net: NetName=RS485_D_N Pin=J8-3
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=J8-4
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=R18-2
+Added Pin To Net: NetName=NetIC7_1 Pin=R22-2
+Added Pin To Net: NetName=NetIC8_1 Pin=R28-1
+Added Pin To Net: NetName=NetIC9_1 Pin=R32-1
+Added Pin To Net: NetName=NetIC4_1 Pin=R40-2
+Added Pin To Net: NetName=NetIC5_1 Pin=R44-2
+Add Pin To Net: Unknown Pin: Pin RV1-1
+Add Pin To Net: Unknown Pin: Pin RV1-2
+Add Pin To Net: Unknown Pin: Pin RV2-1
+Add Pin To Net: Unknown Pin: Pin RV2-2
+Add Pin To Net: Unknown Pin: Pin RV3-1
+Add Pin To Net: Unknown Pin: Pin RV3-2
+Add Pin To Net: Unknown Pin: Pin RV4-1
+Add Pin To Net: Unknown Pin: Pin RV4-2
+Add Pin To Net: Unknown Pin: Pin RV5-1
+Add Pin To Net: Unknown Pin: Pin RV5-2
+Add Pin To Net: Unknown Pin: Pin RV6-1
+Add Pin To Net: Unknown Pin: Pin RV6-2
+Add Pin To Net: Unknown Pin: Pin RV7-1
+Add Pin To Net: Unknown Pin: Pin RV7-2
+Add Pin To Net: Unknown Pin: Pin RV8-1
+Add Pin To Net: Unknown Pin: Pin RV8-2
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Added Pin To Net: NetName=MCU_PDR_ON Pin=Y3-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=Y3-2
+Added Pin To Net: NetName=CLK_13MHZ Pin=Y3-3
+Added Pin To Net: NetName=MCU_PDR_ON Pin=Y3-4
+Add Net: Net with name "+3V3" already exists
+Add Net: Net with name "GND" already exists
+Added Pin To Net: NetName=NetIC13_1 Pin=IC13-1
+Added Pin To Net: NetName=NetIC13_1 Pin=IC13-4
+Added Pin To Net: NetName=NetIC13_1 Pin=R62-1
+Added Net: Name=NetIC13_1
+Added Pin To Net: NetName=NetIC14_1 Pin=IC14-1
+Added Pin To Net: NetName=NetIC14_1 Pin=IC14-4
+Added Pin To Net: NetName=NetIC14_1 Pin=R63-1
+Added Net: Name=NetIC14_1
+Added Pin To Net: NetName=NetIC18_1 Pin=IC18-1
+Added Pin To Net: NetName=NetIC18_1 Pin=IC18-4
+Added Pin To Net: NetName=NetIC18_1 Pin=R67-1
+Added Net: Name=NetIC18_1
+Added Pin To Net: NetName=NetIC20_1 Pin=IC20-1
+Added Pin To Net: NetName=NetIC20_1 Pin=IC20-4
+Added Pin To Net: NetName=NetIC20_1 Pin=R71-1
+Added Net: Name=NetIC20_1
+Add Net: Net with name "PB1" already exists
+Add Class Member: Failed to add class member : Component D1 BAT165AX
+Add Class Member: Failed to add class member : Component D5 BAT165AX
+Added Member To Class: ClassName=U_USB_HS Member=Component IC1 USB3318C-CP-TR
+Added Member To Class: ClassName=U_Peripherals Member=Component IC2 NX3DV42GU,115
+Added Member To Class: ClassName=U_Codec Member=Component IC3 TLV320AIC3104IRHBR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC4 TLV9161IDBVR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC5 TLV9161IDBVR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC6 TLV9161IDBVR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC7 TLV9161IDBVR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC8 TLV9161IDBVR
+Added Member To Class: ClassName=U_Input_Output_Filtering Member=Component IC9 TLV9161IDBVR
+Added Member To Class: ClassName=U_Memory Member=Component IC10 IS25LP080D-JNLE-TR
+Added Member To Class: ClassName=U_Memory Member=Component IC11 IS42S16800J-7BLI-TR
+Add Class Member: Failed to add class member : Component IC12 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC13 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC14 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC15 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC16 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC17 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC18 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC19 TLV9161IDBVR
+Added Member To Class: ClassName=U_Potentiometers Member=Component IC20 TLV9161IDBVR
+Added Member To Class: ClassName=U_Memory Member=Component J4 MSD-12-A
+Added Member To Class: ClassName=U_Peripherals Member=Component J8 3-794627-4
+Add Class Member: Failed to add class member : Component RV1 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV2 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV3 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV4 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV5 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV6 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV7 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component RV8 CG0402MLU-12G
+Add Class Member: Failed to add class member : Component S1 PCM12SMTBR
+Added Member To Class: ClassName=U_USB_HS Member=Component Y3 ECS-2520MV-130-BN-TR
