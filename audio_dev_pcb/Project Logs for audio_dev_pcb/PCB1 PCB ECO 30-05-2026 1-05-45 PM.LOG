@@ -1,0 +1,15 @@
+Added Component: Designator=IC12(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV9161IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC107_1 Pin=IC12-1
+Added Pin To Net: NetName=Audio_In_1_Raw_L_Ring Pin=IC12-2
+Added Pin To Net: NetName=NetIC12_3 Pin=IC12-3
+Added Pin To Net: NetName=NetC107_1 Pin=IC12-4
+Added Pin To Net: NetName=+5VA Pin=IC12-5
+Added Member To Class: ClassName=U_Expression_Pedal Member=Component IC12 TLV9161IDBVR

@@ -1,0 +1,7 @@
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Change Component Designator: OldDesignator= NewDesignator=NT90
+Added Pin To Net: NetName=MCU_VCAP1 Pin=C92-1
+Added Pin To Net: NetName=MCU_VCAP1 Pin=U1-71
+Added Net: Name=MCU_VCAP1
