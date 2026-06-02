@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=C82-1
+Removed Pin From Net: NetName=+VUSB Pin=C83-2
+Removed Pin From Net: NetName=+VUSB Pin=FB3-2
+Removed Pin From Net: NetName=GND Pin=IC1-25
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=+VUSB_FILT Pin=C83-2
+Added Pin To Net: NetName=+VUSB_FILT Pin=FB3-2
+Added Pin To Net: NetName=GND Pin=IC1-25

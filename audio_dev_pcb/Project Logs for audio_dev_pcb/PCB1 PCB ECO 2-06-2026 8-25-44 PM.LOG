@@ -1,0 +1,34 @@
+Added Component: Designator=IC1(QFN50P400X400X100-25N-D)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "null?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562029"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "886-USB3318C-CP-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB3318C-CP-TR?qs=pA5MXup5wxEqKRd0j%252Bo%252BXA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=USB_PHY_VBUS Pin=IC1-2
+Added Pin To Net: NetName=+3V3 Pin=IC1-3
+Added Pin To Net: NetName=USB_+3V3 Pin=IC1-4
+Added Pin To Net: NetName=USB_HS_D_N Pin=IC1-5
+Added Pin To Net: NetName=USB_HS_D_P Pin=IC1-6
+Added Pin To Net: NetName=ULPI.ULPI_D7 Pin=IC1-8
+Added Pin To Net: NetName=ULPI.ULPI_D6 Pin=IC1-9
+Added Pin To Net: NetName=ULPI.ULPI_D5 Pin=IC1-10
+Added Pin To Net: NetName=ULPI.ULPI_D4 Pin=IC1-11
+Added Pin To Net: NetName=ULPI.ULPI_CLK Pin=IC1-12
+Added Pin To Net: NetName=ULPI.ULPI_D3 Pin=IC1-13
+Added Pin To Net: NetName=ULPI.ULPI_D2 Pin=IC1-14
+Added Pin To Net: NetName=ULPI.ULPI_D1 Pin=IC1-15
+Added Pin To Net: NetName=ULPI.ULPI_D0 Pin=IC1-16
+Added Pin To Net: NetName=+3V3 Pin=IC1-17
+Added Pin To Net: NetName=ULPI.ULPI_NXT Pin=IC1-18
+Added Pin To Net: NetName=ULPI.ULPI_DIR Pin=IC1-19
+Added Pin To Net: NetName=ULPI.ULPI_STP Pin=IC1-20
+Added Pin To Net: NetName=+1V8 Pin=IC1-21
+Added Pin To Net: NetName=USB_NRST Pin=IC1-22
+Added Pin To Net: NetName=USB_REFCLK_13_MHZ Pin=IC1-23
+Added Pin To Net: NetName=USB_RBIAS Pin=IC1-24
+Added Pin To Net: NetName=GND Pin=IC1-25
+Added Member To Class: ClassName=U_USB_HS Member=Component IC1 USB3318C-CP-TR
+Added Member To Class: ClassName=U_USB_HS Member=Component R6 RC0402JR-1333RL

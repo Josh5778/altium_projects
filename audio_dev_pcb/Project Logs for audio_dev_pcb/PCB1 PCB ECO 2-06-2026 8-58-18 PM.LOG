@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=IC1-25
+Added Component: Designator=C82(FP-GCM155-0_05-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "100n"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=+VUSB Pin=C82-2
+Added Pin To Net: NetName=GND Pin=IC1-25
+Added Member To Class: ClassName=U_Peripherals Member=Component C82 GCM155R71H104ME02J
