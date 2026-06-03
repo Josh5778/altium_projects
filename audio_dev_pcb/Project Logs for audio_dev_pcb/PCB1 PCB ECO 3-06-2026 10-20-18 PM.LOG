@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=C82-1
+Removed Pin From Net: NetName=GND Pin=IC1-25
+Removed Pin From Net: NetName=GND Pin=IC5-2
+Removed Pin From Net: NetName=GND Pin=IC7-2
+Removed Pin From Net: NetName=GND Pin=R25-1
+Added Component: Designator=C26(FP-GRM155-0_1-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "500um"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "500um"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C26-1
+Added Pin To Net: NetName=NetC24_2 Pin=C26-2
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=GND Pin=IC1-25
+Added Pin To Net: NetName=GND Pin=IC5-2
+Added Pin To Net: NetName=GND Pin=IC7-2
+Added Pin To Net: NetName=GND Pin=R25-1
+Added Member To Class: ClassName=U_Codec Member=Component C26 GRM155C70J105ME11J
