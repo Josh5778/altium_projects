@@ -1,0 +1,10 @@
+23:12:22 **** Incremental Build of configuration Debug for project h750_pin_selection ****
+make -j12 all 
+arm-none-eabi-size  h750_pin_selection.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33040	     16	   1920	  34976	   88a0	h750_pin_selection.elf
+Finished building: default.size.stdout
+ 
+
+23:12:22 Build Finished. 0 errors, 0 warnings. (took 241ms)
+

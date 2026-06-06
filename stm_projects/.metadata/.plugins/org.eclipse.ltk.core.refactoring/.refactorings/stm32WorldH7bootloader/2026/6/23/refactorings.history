@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;stm32WorldH7bootloader/Core/Inc/flash_control&apos; to &apos;flash_control.h&apos;" description="Rename resource &apos;flash_control&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/flash_control" name="flash_control.h" stamp="1780663026891" updateReferences="true"/>
+</session>

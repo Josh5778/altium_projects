@@ -1,0 +1,6 @@
+../Core/Src/serial_port.c:7:9:parse_request	24	static
+../Core/Src/serial_port.c:44:9:boot_verify_crc	40	static
+../Core/Src/serial_port.c:60:6:boot_send_ack	16	static
+../Core/Src/serial_port.c:66:6:boot_send_nack	16	static
+../Core/Src/serial_port.c:72:6:send_data2pc	16	static
+../Core/Src/serial_port.c:77:6:bootloader_jump_application	24	static,ignoring_inline_asm

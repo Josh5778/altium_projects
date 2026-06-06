@@ -1,0 +1,10 @@
+23:12:18 **** Incremental Build of configuration Debug for project L432test ****
+make -j12 all 
+arm-none-eabi-size  L432test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11308	     12	   1708	  13028	   32e4	L432test.elf
+Finished building: default.size.stdout
+ 
+
+23:12:18 Build Finished. 0 errors, 0 warnings. (took 188ms)
+
