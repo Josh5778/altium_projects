@@ -1,0 +1,99 @@
+#include "serial_port.h"
+#include "stdio.h"
+#include "flash_control.h"
+
+extern CRC_HandleTypeDef hcrc;
+
+uint8_t parse_request(CommandTypeDef* command, uint8_t *data, uint16_t size)
+{
+	if((uint8_t)(*data) == MESSAGE_TOKEN)
+	{
+		if( (uint8_t)(*(data + 1)) == (BOOT_UPDATE_REQUEST) ||
+			(uint8_t)(*(data + 1)) == (BOOT_RUN_APPLICATION))
+		{
+			command->rw_request = *(data + 1);
+			command->data_size = *((uint16_t *)&data[2]);
+			// data + 2 (message token and command code) + 2 (data size) + 4 (crc)
+			if (size != command->data_size + 2 + 2 + 4)
+			{
+				return SERIAL_SIZE_ERROR;
+			}
+			command->data = &data[4];
+			command->crc_value = *((uint32_t *)&data[4 + command->data_size]);
+			if(boot_verify_crc(data, size - 4, command->crc_value))
+			{
+				return SERIAL_CRC_ERROR;
+			}
+		}
+		else
+		{
+			// Wrong data format
+			return SERIAL_MESSAGE_ERROR;
+		}
+	}
+	else
+	{
+		return SERIAL_MESSAGE_ERROR;
+	}
+	return SERIAL_OK;
+}
+
+// data (n bytes), crc host (4 bytes)
+// crc mcu = CRC_compute(data)
+// crc mcu == crc host
+uint8_t boot_verify_crc(uint8_t *data, uint8_t len, uint32_t crc_host)
+{
+	uint32_t crc_value = 0xff;
+	for(uint32_t i = 0; i < len; i++)
+	{
+		uint32_t i_data = data[i];
+		crc_value = HAL_CRC_Accumulate(&hcrc, &i_data, 1);
+	}
+	 __HAL_CRC_DR_RESET(&hcrc);
+	if (crc_value == crc_host)
+	{
+		return 0;
+	}
+	return 1;
+}
+
+void boot_send_ack()
+{
+	uint8_t ack = BOOT_ACK;
+	HAL_UART_Transmit_DMA(&PC_UART, &ack, 1);
+}
+
+void boot_send_nack(void)
+{
+	uint8_t nack = BOOT_NACK;
+	HAL_UART_Transmit_DMA(&PC_UART, &nack, 1);
+}
+
+void send_data2pc(uint8_t *data, uint8_t size)
+{
+	HAL_UART_Transmit_DMA(&PC_UART, data, size);
+}
+
+void bootloader_jump_application(void)
+{
+	void (*app_reset_handler)(void);
+
+	//setting main stack pointer
+	// first 4 bytes hold the address of the stack pointer
+	uint32_t msp_value = *(volatile uint32_t*)(APPLICATION_ADDRESS);
+	/* Disable all interrupts */
+	__disable_irq();
+
+	/* De-init peripherals if needed */
+	HAL_RCC_DeInit();
+	HAL_DeInit();
+
+	__set_MSP(msp_value);
+
+	// next four bytes hold the address of the reset handler function
+	uint32_t app_reset_handler_address = *(volatile uint32_t*)(APPLICATION_ADDRESS + 4);
+	app_reset_handler = (void*)app_reset_handler_address;
+	//run the reset handler of the application
+    app_reset_handler();
+
+}

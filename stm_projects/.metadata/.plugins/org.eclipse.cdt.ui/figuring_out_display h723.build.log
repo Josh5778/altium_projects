@@ -1,4 +1,4 @@
-23:12:18 **** Incremental Build of configuration Debug for project figuring_out_display h723 ****
+15:25:58 **** Incremental Build of configuration Debug for project figuring_out_display h723 ****
 make -j12 all 
 arm-none-eabi-size  figuring_out_display\ h723.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  figuring_out_display\ h723.elf
 Finished building: default.size.stdout
  
 
-23:12:18 Build Finished. 0 errors, 0 warnings. (took 187ms)
+15:25:58 Build Finished. 0 errors, 0 warnings. (took 184ms)
 

@@ -1,5 +1,6 @@
 #include "flash_control.h"
 #include "stdint.h"
+#include "main.h"
 
 void erase_flash_memory()
 {
@@ -16,7 +17,7 @@ void erase_flash_memory()
 	flash_erase_struct.Banks = FLASH_BANK_1;
 
 	// erase the pages, this step is mandatory
-	HAL_FLASHEx_Erase(&flash_erase_struct, &error_status);
+    HAL_StatusTypeDef status = HAL_FLASHEx_Erase(&flash_erase_struct, &error_status);
 
 	HAL_FLASH_Lock();
 }
@@ -30,6 +31,7 @@ void store_flash_memory(uint32_t memory_address, uint8_t *data, uint16_t data_le
 	if(memory_address == APPLICATION_ADDRESS)
 	{
 		erase_flash_memory();
+		HAL_FLASH_Unlock();
 	}
 	// using while loop, convey all data to the flash memory
 	while (data_length > 8)

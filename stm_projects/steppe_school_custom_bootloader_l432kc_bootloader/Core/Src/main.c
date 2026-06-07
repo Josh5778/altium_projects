@@ -49,10 +49,9 @@ DMA_HandleTypeDef hdma_usart2_rx;
 DMA_HandleTypeDef hdma_usart2_tx;
 
 /* USER CODE BEGIN PV */
-CommandTypeDef command_pc;
-uint8_t received_data[400];
-static uint16_t uart_size;
-char application_message[] = "HELLO FROM APPLICATION 1";
+static uint16_t uart_size = 0;
+static uint8_t received_data[400];
+CommandTypeDef bootloader_data;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -115,7 +114,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  uint32_t address = APPLICATION_ADDRESS;
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -134,6 +133,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_UARTEx_ReceiveToIdle_DMA(&huart2, received_data, sizeof(received_data));
 
+  uint32_t boot_timeout = HAL_GetTick();
+
   /* USER CODE END 2 */
   LD3_Write(GPIO_PIN_RESET);
   HAL_Delay(1000);
@@ -144,19 +145,36 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if ((HAL_GetTick() - boot_timeout) > 10000)
+	  {
+		 bootloader_jump_application();
+	  }
+
 	  if(uart_size)
 	  {
-		  if(boot_verify_crc(received_data, uart_size - 4, *((uint32_t *)&received_data[uart_size-4])))
+		  if(!parse_request(&bootloader_data, received_data, uart_size))
 		  {
-			  printf("crc is incorrect \n");
-			  LD3_Write(GPIO_PIN_RESET);  // LED off
+			  switch(bootloader_data.rw_request)
+			  {
+			  case BOOT_UPDATE_REQUEST:
+				  printf("recevied boot update request! \r\n");
+
+				  store_flash_memory(address, bootloader_data.data, bootloader_data.data_size);
+				  address += bootloader_data.data_size;
+				  boot_send_ack();
+				  break;
+			  case BOOT_RUN_APPLICATION:
+				  printf("received run application request! \r\n");
+				  boot_send_ack();
+				  bootloader_jump_application();
+				  break;
+			  }
 		  }
 		  else
 		  {
-			  printf("CRCs match each other \n");
-			  printf("message is %s \n", (char*)received_data);
-			  LD3_Write(GPIO_PIN_SET);    // LED on
+			  boot_send_nack();
 		  }
+		  uart_size = 0;
 	  }
     /* USER CODE END WHILE */
 

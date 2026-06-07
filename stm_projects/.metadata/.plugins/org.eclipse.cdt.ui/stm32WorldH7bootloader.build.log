@@ -1,4 +1,4 @@
-23:12:22 **** Incremental Build of configuration Debug for project stm32WorldH7bootloader ****
+15:26:01 **** Incremental Build of configuration Debug for project stm32WorldH7bootloader ****
 make -j12 all 
 arm-none-eabi-size  stm32WorldH7bootloader.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  stm32WorldH7bootloader.elf
 Finished building: default.size.stdout
  
 
-23:12:22 Build Finished. 0 errors, 0 warnings. (took 239ms)
+15:26:01 Build Finished. 0 errors, 0 warnings. (took 238ms)
 

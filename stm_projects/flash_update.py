@@ -96,11 +96,10 @@ message = bytes(message, 'utf-8')
 while(True):
     command = int(input("enter the command number (1 - update, 2 - change, 3 - check): "))
     if command == 1:
-        send_data_serial(serial_com, message)
-    #     update_flash_mem(serial_com, "CUSTOM_BOOTLOADER_STM32L4.bin")
-    # elif command == 2:
-    #     change_firmware(serial_com)
-    # elif command == 3:
-    #     read_firmware_version(serial_com)
+        update_flash_mem(serial_com, "steppe_school_custom_bootloader_l432kc_application.bin")
+    elif command == 2:
+        change_firmware(serial_com)
+    elif command == 3:
+        read_firmware_version(serial_com)
     else:
         break

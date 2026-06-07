@@ -81,6 +81,7 @@ void bootloader_jump_application(void)
 	//setting main stack pointer
 	// first 4 bytes hold the address of the stack pointer
 	uint32_t msp_value = *(volatile uint32_t*)(APPLICATION_ADDRESS);
+
 	/* Disable all interrupts */
 	__disable_irq();
 
@@ -88,11 +89,20 @@ void bootloader_jump_application(void)
 	HAL_RCC_DeInit();
 	HAL_DeInit();
 
+	/*Disable SysTick*/
+	SysTick->CTRL = 0;
+	SysTick->LOAD = 0;
+	SysTick->VAL = 0;
+
+	//relocate the vector table to the application
+	SCB->VTOR = APPLICATION_ADDRESS;
+
 	__set_MSP(msp_value);
 
 	// next four bytes hold the address of the reset handler function
 	uint32_t app_reset_handler_address = *(volatile uint32_t*)(APPLICATION_ADDRESS + 4);
 	app_reset_handler = (void*)app_reset_handler_address;
+	__enable_irq();
 	//run the reset handler of the application
     app_reset_handler();
 
