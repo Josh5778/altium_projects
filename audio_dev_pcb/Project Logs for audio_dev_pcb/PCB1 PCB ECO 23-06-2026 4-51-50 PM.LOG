@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=GND Pin=C28-2
+Removed Pin From Net: NetName=GND Pin=C29-2
+Removed Pin From Net: NetName=GND Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=C32-2
+Removed Pin From Net: NetName=GND Pin=C34-2
+Removed Pin From Net: NetName=GND Pin=C82-1
+Removed Pin From Net: NetName=GND Pin=IC1-25
+Removed Pin From Net: NetName=GND Pin=IC5-2
+Removed Pin From Net: NetName=GND Pin=IC7-2
+Removed Pin From Net: NetName=GND Pin=R25-1
+Added Component: Designator=J9(47946296)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "4-794629-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/4-794629-6/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=4-794629-6&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.67mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-794629-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-4-794629-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/4-794629-6?qs=vczR1Rbrl535QN5OwRvF4g%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=GND Pin=IC1-25
+Added Pin To Net: NetName=GND Pin=IC5-2
+Added Pin To Net: NetName=GND Pin=IC7-2
+Added Pin To Net: NetName=+3V3 Pin=J9-1
+Added Pin To Net: NetName=ExpressionTip Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J9-3
+Added Pin To Net: NetName=AUDIO_IN_1_RAW_RIGHT Pin=J9-4
+Added Pin To Net: NetName=GND Pin=J9-5
+Added Pin To Net: NetName=AUDIO_IN_1_RAW_LEFT Pin=J9-6
+Added Pin To Net: NetName=GND Pin=J9-7
+Added Pin To Net: NetName=AUDIO_IN_2_RAW_LEFT Pin=J9-8
+Added Pin To Net: NetName=GND Pin=J9-9
+Added Pin To Net: NetName=FILTERED_OUT_LEFT Pin=J9-10
+Added Pin To Net: NetName=GND Pin=J9-11
+Added Pin To Net: NetName=FILTERED_OUT_RIGHT Pin=J9-12
+Added Pin To Net: NetName=GND Pin=J9-13
+Added Pin To Net: NetName=AUDIO_IN_2_RAW_RIGHT Pin=J9-14
+Added Pin To Net: NetName=GND Pin=J9-15
+Added Pin To Net: NetName=GND Pin=R25-1
+Added Member To Class: ClassName=U_audio_io Member=Component J9 4-794629-6
