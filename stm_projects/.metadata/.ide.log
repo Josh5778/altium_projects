@@ -754,3 +754,5 @@
 2026-07-01 00:18:10,960 [INFO] OpenFileManager:386 - Restore cursor
 2026-07-01 00:33:15,322 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
 2026-07-01 00:33:17,733 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2026-07-01 01:20:00,290 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 890560152 Bytes (1073741824)
+2026-07-01 01:20:09,146 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
